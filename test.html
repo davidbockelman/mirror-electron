@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div>Test</div>
+        <button onclick="connect()">connect</button>
+        <button onclick="startModules()">Start Modules</button>
+        <button onclick="getModules()">Get module Ids</button>
+        <button onclick="hideModule()">Hide Module</button>
+        <button onclick="updateModule()">Update Module</button>
+        <button onclick="makeFullscreen()">Make fullscreen</button>
+        <button onclick="exitFullscreen()">Exit Fullscreen</button>
+    </body>
+    <script>
+        let ws
+        function connect() {
+            const webSocket = new WebSocket('ws://192.168.1.33:8000/socket')
+            webSocket.onmessage = (event) => {
+                console.log(event.data)
+            }
+            webSocket.onopen = () => {
+                ws = webSocket
+            }
+            
+        }
+
+        function startModules() {
+            ws.send(JSON.stringify({
+                route: 'modules-start',
+
+            }))
+        }
+
+        function getModules() {
+            ws.send(JSON.stringify({
+                route: 'get-modules'
+            }))
+        }
+
+        function hideModule() {
+            ws.send(JSON.stringify({
+                route: 'hide-module',
+                moduleId: 'helloworld',
+                duration: 1000,
+            }))
+        }
+
+        function updateModule() {
+            ws.send(JSON.stringify({
+                route: 'dom-data',
+                module: 'helloworld',
+                data: {
+                    text: '<div>This is coming from client!!</div>'
+                }
+            }))
+            ws.send(JSON.stringify({
+                route: 'update-dom',
+                module: 'helloworld',
+            }))
+        }
+
+        function makeFullscreen() {
+            ws.send(JSON.stringify({
+                route: 'make-fullscreen',
+                dom: ''
+            }))
+            setTimeout(() => {
+                ws.send(JSON.stringify({
+                    route: 'exit-fullscreen'
+                }))
+            }, 2000)
+        }
+
+        function exitFullscreen() {
+            ws.send(JSON.stringify({
+                route: 'exit-fullscreen'
+            }))
+        }
+    </script>
+</html>
