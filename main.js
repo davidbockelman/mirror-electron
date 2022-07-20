@@ -40,7 +40,7 @@ const initServer = (contents) => {
         rpio.endLivetream()
     })
 
-    Server.on('req-pic', async () => {
+    Server.on('take-image', async () => {
         const image = await rpio.takePicture()
         Server.emit('send-pic', image)
     })
@@ -81,7 +81,7 @@ const initServer = (contents) => {
     })
 
     Server.on('lights-off', () => {
-        rpio.turnLightsOn()
+        rpio.turnLightsOff()
     })
 
     Server.on('modules-start', () => {

@@ -1,9 +1,7 @@
-const express = require('express')
-const app = express()
+const fs = require('fs')
 const path = require('path')
+const rpio = require('rpio')
 
-app.get('/index', (req, res) => {
-    res.sendFile(path.join(__dirname, 'test.html'))
-})
-
-app.listen(8000)
+const buf = Buffer.from(fs.readFileSync(path.join(__dirname, 'buf-dumps', 'R2C1')))
+rpio.open(11, rpio.OUTPUT, rpio.HIGH)
+rpio.writebuf(11, buf)

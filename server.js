@@ -19,7 +19,7 @@ io.on('connection', (socket) => {
     connected = true
     setupIncomingSocketRoutes(socket)
     //0623
-    //setupOutgoingSocketRoutes(initWs)
+    setupOutgoingSocketRoutes()
     ServerEmitter.on('module-ids', (moduleIds => {
         console.log('Sending moduleIds')
         io.emit('moduleIds', {data: 'test'})
@@ -74,9 +74,13 @@ const setupIncomingSocketRoutes = (socket) => {
     })
 }
 
-const setupOutgoingSocketRoutes = (ws) => {
+const setupOutgoingSocketRoutes = () => {
     ServerEmitter.on('send-live', (imageObj) => {
         io.emit('live-image', imageObj)
+    })
+
+    ServerEmitter.on('send-pic', (image) => {
+        io.emit('new-image', { data: image })
     })
 }
 

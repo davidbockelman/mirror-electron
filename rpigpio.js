@@ -34,14 +34,15 @@ var intervalId
 
 module.exports = {
     setColor: (color) => {
-        switch (color) {
-            case 'red':
-                rpio.writebuf(LIT, buffers['R2C1'])
-                break
+        rpio.writebuf(LIT, buffers['R2C2'])
+        // switch (color) {
+        //     case 'red':
+        //         rpio.writebuf(LIT, buffers['R2C1'])
+        //         break
                 
-            default:
-                console.log('[RPIGPIO ERROR]: ' + color + ' is not a selectable color')
-        }
+        //     default:
+        //         console.log('[RPIGPIO ERROR]: ' + color + ' is not a selectable color')
+        // }
     },
 
     turnLightsOff: () => {
