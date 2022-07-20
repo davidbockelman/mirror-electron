@@ -32,7 +32,7 @@ const initServer = (contents) => {
     //setup events from server
     Server.on('req-live', () => {
         rpio.startLivestream((image) => {
-            Server.emit('send-live', image.toString('base64'))
+            Server.emit('send-live', { data: image.toString('base64') })
         })
     })
 
@@ -56,10 +56,12 @@ const initServer = (contents) => {
     })
 
     Server.on('get-modules', () => {
-        contents.send('get-modules')
+        
         ipcMain.on('modules-array', (event, moduleIds) => {
+            console.log('Received modules')
             Server.emit('module-ids', moduleIds)
         })
+        contents.send('get-modules')
     })
 
     Server.on('update-dom', (module) => {
@@ -70,8 +72,8 @@ const initServer = (contents) => {
         contents.send('give-data', module, data)
     })
 
-    Server.on('set-color', (color) => {
-        rpio.setColor(color)
+    Server.on('set-lights', (colorNum) => {
+        rpio.setColor(colorNum)
     })
 
     Server.on('lights-on', () => {
@@ -96,6 +98,10 @@ const initServer = (contents) => {
 
     Server.on('exit-fullscreen', () => {
         contents.send('exit-fullscreen')
+    })
+
+    Server.on('bright-level', brightNum => {
+        rpio.setBright(brightNum)
     })
 }
 

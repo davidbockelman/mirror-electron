@@ -11,12 +11,14 @@ var inFullscreen = false
 
 const loadModules = () => {
     fs.readdirSync(__dirname).forEach((moduleDirName, index) => {
+        
         if (moduleDirName != 'modules.js') {
+            
             fs.readdirSync(path.join(__dirname, moduleDirName)).forEach((fileName) => {
                 if (fileName.substring(fileName.lastIndexOf('.')) == '.js') {
                     const mod = require(path.join(__dirname, moduleDirName, fileName))
                     mod.id = fileName + '_' + index
-                    modules.push(module)
+                    modules.push(mod)
                 } else if (fileName.substring(fileName.lastIndexOf('.')) == '.css') {
                     styles.push(path.join(__dirname, moduleDirName, fileName))
                 }
@@ -127,6 +129,7 @@ const giveData = (moduleId, data) => {
 
 const startModules = () => {
     modules.forEach((mod) => {
+        console.log(mod)
         mod.start()
     })
 }
@@ -172,6 +175,7 @@ const fadeIn = (moduleId, duration) => {
 const setupIpcRoutes = () => {
     //start modules
     ipcRenderer.on('modules-start', () => {
+        
         loadModules()
         startModules()
         positionModulesWrappers()
@@ -189,6 +193,7 @@ const setupIpcRoutes = () => {
     })
     //get module ids
     ipcRenderer.on('get-modules', () => {
+        console.log('Got modules request')
         ipcRenderer.send('modules-array', getModuleIds())
     })
     //make fullscreen
