@@ -18,12 +18,7 @@ io.on('connection', (socket) => {
     console.log('[SERVER_INFO]: WebSocket connection establised')
     connected = true
     setupIncomingSocketRoutes(socket)
-    //0623
     setupOutgoingSocketRoutes()
-    ServerEmitter.on('module-ids', (moduleIds => {
-        console.log('Sending moduleIds')
-        io.emit('moduleIds', {data: 'test'})
-    }))
 })
 
 server.listen(8000)
@@ -65,12 +60,24 @@ const setupIncomingSocketRoutes = (socket) => {
         ServerEmitter.emit('end-live')
     })
 
+    socket.on('start-recording', () => {
+        ServerEmitter.emit('start-recording')
+    })
+
     socket.on("stop-recording", () => {
         ServerEmitter.emit('stop-recording')
     })
 
     socket.on('take-image', () => {
         ServerEmitter.emit('take-image')
+    })
+
+    socket.on("display-off", () => {
+        ServerEmitter.emit('display-off')
+    })
+
+    socket.on('display-on', () => {
+        ServerEmitter.emit('display-on')
     })
 }
 

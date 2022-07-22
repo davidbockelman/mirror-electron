@@ -13,6 +13,7 @@ const createWindow = () => {
         width: 900,
         height: 1600,
         backgroundColor: 'black',
+        fullscreen: false,
         webPreferences: {
             preload: path.join(__dirname, 'preload.js'),
         }
@@ -25,8 +26,21 @@ const createWindow = () => {
 
 app.whenReady().then(() => {
     win = createWindow()
+    win.webContents.send('modules-start')
     initServer(win.webContents)
+    setupRpio(win.webContents)
 })
+
+const setupRpio = (contents) => [
+    rpio.setMotionWatchDog((pin) => {
+        console.log('motion')
+        if (pin.read()) {
+            contents.send('exit-fullscreen')
+        } else {
+            contents.send('make-fullscreen', '')
+        }
+    })
+]
 
 const initServer = (contents) => {
     //setup events from server
@@ -45,9 +59,13 @@ const initServer = (contents) => {
         Server.emit('send-pic', image)
     })
 
-    Server.on('req-video', (duration) => {
-        rpio.takeVideo(duration, (video) => {
-            Server.emit('send-vid', video.toString('base64'))
+    Server.on('start-recording', () => {
+        rpio.startVideo()
+    })
+
+    Server.on('stop-recording', () => {
+        rpio.stopVideo((buf) => {
+            Server.emit('new-video', { data: buf.toString('base64') })
         })
     })
 
@@ -86,6 +104,16 @@ const initServer = (contents) => {
 
     Server.on('modules-start', () => {
         contents.send('modules-start')
+    })
+
+    Server.on('display-on', () => {
+        contents.send('exit-fullscreen')
+        rpio.setUserLock()
+    })
+
+    Server.on('display-off', () => {
+        contents.send('make-fullscreen', '')
+        rpio.setUserLock()
     })
 
     Server.on('hide-module', (module, duration) => {

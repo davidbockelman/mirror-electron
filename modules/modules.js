@@ -70,13 +70,32 @@ const setIntervals = () => {
         if (mod.usesInterval) {
             const intervalId = setInterval(() => {
                 
-                if (!inFullscreen) updateModule(mod.id)
+                if (!inFullscreen && !mod.hidden) updateModule(mod.id)
             }, mod.interval)
             intervalIds.push({
                 modId: mod.id,
                 intId: intervalId
             })
         }
+        if (mod.usesFadeInterval) {
+            setTimeout(() => {
+                if (!mod.hidden) {
+                    fadeOut(mod.id, mod.fadeDuration / 2)
+                    setTimeout(() => {
+                        fadeIn(mod.id, mod.fadeDuration / 2)
+                    }, mod.fadeDuration / 2)
+                }
+                setInterval(() => {
+                    if (!mod.hidden) {
+                        fadeOut(mod.id, mod.fadeDuration / 2)
+                        setTimeout(() => {
+                            fadeIn(mod.id, mod.fadeDuration / 2)
+                        }, mod.fadeDuration / 2)
+                    }
+                }, mod.fadeInterval)
+            }, mod.fadeStart)
+        }
+       
     })
 }
 
@@ -122,14 +141,13 @@ const getModuleIds = () => {
 }
 
 const giveData = (moduleId, data) => {
-    console.log(moduleId)
+
     const tgt = modules.find((mod) => mod.id == moduleId)
     tgt.give(data)
 }
 
 const startModules = () => {
     modules.forEach((mod) => {
-        console.log(mod)
         mod.start()
     })
 }
@@ -137,13 +155,14 @@ const startModules = () => {
 const fadeOut = (moduleId, duration) => {
     const mod = modules.find((mod) => mod.id == moduleId)
     if (!mod.hidden) {
+        mod.hidden = true
         const wrap = document.getElementById(moduleId)
         wrap.style.opacity = 1
         const fadeInterval = setInterval(() => {
             if (wrap.style.opacity > 0) {
                 wrap.style.opacity -= 0.02
             } else {
-                mod.hidden = true
+                
                 clearInterval(fadeInterval)
             }
         }, duration / 50)
@@ -160,6 +179,7 @@ const fadeIn = (moduleId, duration) => {
         const fadeInterval = setInterval(() => {
             
             if (wrap.style.opacity < 1) {
+                console.log(wrap.style.opacity)
                 wrap.style.opacity -= -0.02
                 
             } else {
@@ -175,7 +195,7 @@ const fadeIn = (moduleId, duration) => {
 const setupIpcRoutes = () => {
     //start modules
     ipcRenderer.on('modules-start', () => {
-        
+        console.log('starting modules')
         loadModules()
         startModules()
         positionModulesWrappers()
@@ -198,6 +218,7 @@ const setupIpcRoutes = () => {
     })
     //make fullscreen
     ipcRenderer.on('make-fullscreen', (event, data) => {
+        console.log('making fullscreen')
         const parser = new DOMParser()
         makeFullscreen(parser.parseFromString(data, 'text/html').body)
     })

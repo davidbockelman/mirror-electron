@@ -1,9 +1,9 @@
 
 module.exports = {
     id: 'helloworld',
-    position: 'top-left',
+    position: 'top-right',
     usesInterval: true,
-    hidden: false,
+    hidden: true,
     interval: 1000,
     getDom: () => {
         const wrap = document.createElement('div')

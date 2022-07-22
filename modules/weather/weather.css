@@ -1,0 +1,94 @@
+#weather {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 10px;
+}
+
+#weather-today {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+#weather-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 10px;
+}
+
+#weather-temp-today {
+    color: white;
+    font-size: 55px;
+    text-align: center;
+}
+
+#weather-header {
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: 5px;
+}
+
+#weather-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 10px;
+}
+
+
+#weather-today-icon {
+    width: 60px;
+    height: 60px;
+}
+
+#weather-today-hilo {
+    color: gray;
+    text-align: center;
+    font-size: 17px;
+}
+
+#weather-forecast {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 5px;
+    align-items: center;
+}
+
+.forecast-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 10px;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.forecast-day {
+    color: lightgray;
+    font-size: 15px;
+    text-align: center;
+}
+
+.forecast-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.forecast-hilo {
+    color: lightgray;
+    font-size: 12px;
+    text-align: center;
+}

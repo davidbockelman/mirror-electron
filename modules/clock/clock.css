@@ -1,0 +1,47 @@
+#clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#date-wrap {
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+}
+
+#time-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#hour-wrap {
+    text-align: right;
+    color: white;
+    font-size: 70px;
+}
+
+#second-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 3px;
+}
+
+#seconds {
+    color: gray;
+    font-size: 30px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+#halfday {
+    color: gray;
+    font-size: 30px;
+    text-align: left;
+}

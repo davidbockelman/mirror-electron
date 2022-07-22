@@ -4,10 +4,13 @@ const { StillCamera, StreamCamera, Codec } = require('pi-camera-connect')
 const fs = require('fs')
 const path = require('path')
 const { EventEmitter } = require('stream')
+const Audic = require('audic')
 
 //pin 4 for motion-senser
 const MOT = 7
 rpio.open(MOT, INPUT)
+
+var userLock = false;
 
 //lights
 var buffers = {}
@@ -31,6 +34,10 @@ const streamCamera = new StreamCamera({
 var lightsOn
 var streaming = false;
 var intervalId
+var recording = false
+var rawData = ''
+var stream
+var userLockTimeout
 
 module.exports = {
     setColor: (color) => {
@@ -63,6 +70,19 @@ module.exports = {
         } else {
             this.turnLightsOn()
         }
+        
+    },
+
+    setUserLock: () => {
+        console.log('User locked')
+        userLock = true;
+        if (userLockTimeout) {
+            clearTimeout(userLockTimeout)
+        }
+        userLockTimeout = setTimeout(() => {
+            userLock = false
+            userLockTimeout = undefined
+        }, 20 * 60000);
     },
 
     dimLights: () => {
@@ -74,29 +94,74 @@ module.exports = {
     },
     
     setMotionWatchDog: (callback) => {
+        callback = (pin) => {
+            if (!userLock){
+                callback(pin)
+            }
+        }
         rpio.poll(MOT, callback, rpio.POLL_BOTH)
     },
 
     takePicture: async () => {
-        const image = await stillCamera.takeImage()
+        let image
+        if (streaming) {
+            image = await streamCamera.takeImage()
+        } else  {
+            image = await stillCamera.takeImage()
+        }
         return image.toString('base64')
+         
     },
 
-    takeVideo: async (duration, callback) => {
-        const stream = streamCamera.createStream()
-        var rawData = ''
-        stream.on('data', (chunk) => rawData += chunk)
-        await streamCamera.startCapture()
-        rpio.msleep(duration)
-        await streamCamera.stopCapture()
-        stream.destroy()
-        callback(Buffer.from(rawData))
+    alarms: [],
+
+    setAlarm: (alarmName, timeFromNow) => {
+        const player = new Audic(path.join(__dirname, 'mp3', 'radar.mp3'))
+        this.alarms.push({
+            alarmName: alarmName,
+            player: player
+        })
+    },
+
+    cancelAlarm: (alarmName) => {
+        const alarm = this.alarms.find((alarm) => alarm.alarmName == alarmName)
+        alarm.player.destroy()
+        //this.alarms.reduce()
+    },
+
+    
+
+    startVideo: async () => {
+        if (!recording) {
+            recording = true
+            stream = streamCamera.createStream()
+            rawData = ''
+            stream.on('data', (chunk) => rawData += chunk)
+            if (!streaming) {
+                await streamCamera.startCapture()
+            }
+        }
+        
+    },
+
+    stopVideo: async (callback) => {
+        if (recording) {
+            recording = false
+            if (!streaming) {
+                await streamCamera.stopCapture()
+            }
+            const buf = Buffer.from(rawData)
+            callback(buf)
+            stream.destroy()
+        }
     },
 
     startLivestream: async (intervalCallback) => {
         if (!streaming) {
             streaming = true
-            await streamCamera.startCapture()
+            if (!recording) {
+                await streamCamera.startCapture()
+            }
             intervalId = setInterval(async () => {
                 const image = await streamCamera.takeImage()
                 intervalCallback(image)
@@ -109,7 +174,10 @@ module.exports = {
     endLivetream: () => {
         if (streaming) {
             clearInterval(intervalId)
-            streamCamera.stopCapture()
+            if (!recording) {
+                streamCamera.stopCapture()
+            }
+            
             streaming = false
         } else {
             console.log('[RPIGPIO_INFO]: Not currently streaming')
