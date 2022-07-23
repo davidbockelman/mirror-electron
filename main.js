@@ -1,3 +1,4 @@
+const { time } = require('console')
 const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('path')
 
@@ -36,17 +37,25 @@ const setupRpio = (contents) => {
         Server.emit("alarm-playing", alarmId)
     })
 
+    rpio.setInactivityCallback((userLock) => {
+        if (!userLock) {
+            contents.send('make-fullscreen', '')
+        }
+        
+    })
 
-    rpio.setMotionWatchDog((pin, userLock) => {
-        console.log('motion')
-        const val = pin.read()
+    rpio.setMotionWatchDog((rpioControl, pin, userLock) => {
+        const val = rpioControl.read(pin)
+        rpio.stopAlarm()
         if (!userLock) {
             if (val) {
-                rpio.stopAlarm()
                 contents.send('exit-fullscreen')
+                if (timeoutId) {
+                    clearTimeout(timeoutId)
+                }
                 timeoutId = setTimeout(() => {
                     contents.send('make-fullscreen', '')
-                }, 5000)
+                }, 5* 60000)
             } 
         }
     })

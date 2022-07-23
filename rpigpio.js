@@ -6,12 +6,21 @@ const path = require('path')
 const { EventEmitter } = require('stream')
 const mpg = require('node-mpg123')
 const player = new mpg(path.join(__dirname, 'mp3', 'radar.mp3'))
+player.on('stop', () => isPlaying = false)
 
 
 
 //pin 4 for motion-senser
 const MOT = 7
 rpio.open(MOT, INPUT)
+var inactivityCallback = function() {
+
+}
+setInterval(() => {
+    if (!rpio.read(MOT)) {
+        inactivityCallback(userLock)
+    }
+}, 5000)
 
 var userLock = false;
 
@@ -43,6 +52,8 @@ var stream
 var userLockTimeout
 var alarms = []
 var curPlaying
+var isPlaying = false
+
 
 
 module.exports = {
@@ -88,7 +99,7 @@ module.exports = {
         userLockTimeout = setTimeout(() => {
             userLock = false
             userLockTimeout = undefined
-        }, 20 * 60000);
+        }, 10 * 60000);
     },
 
     dimLights: () => {
@@ -100,10 +111,10 @@ module.exports = {
     },
     
     setMotionWatchDog: (callback) => {
-        callback = (pin) => {
-            callback(pin, userLock)
+        newCallback = (pin) => {
+            callback(rpio, pin, userLock)
         }
-        rpio.poll(MOT, callback, rpio.POLL_BOTH)
+        rpio.poll(MOT, newCallback, rpio.POLL_BOTH)
     },
 
     takePicture: async () => {
@@ -120,6 +131,7 @@ module.exports = {
     setAlarm: (alarmName, timeFromNow) => {
         const timeoutId = setTimeout(() => {
             curPlaying = alarmName
+            isPlaying = true
             player.play()
         }, timeFromNow)
         alarms.push({
@@ -129,7 +141,9 @@ module.exports = {
     },
 
     stopAlarm: () => {
-        player.stop()
+        if (isPlaying) {
+            player.stop()
+        }
     },
 
     setPlayCallback: (callback) => {
@@ -137,6 +151,10 @@ module.exports = {
             console.log("Activating callback")
             callback(curPlaying)
         })
+    },
+
+    setInactivityCallback: (callback) => {
+        inactivityCallback = callback
     },
 
     cancelAlarm: (alarmName) => {
