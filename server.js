@@ -3,7 +3,9 @@ const app = express()
 const http = require('http')
 const server = http.Server(app)
 const { Server } = require('socket.io')
-const io = new Server(server)
+const io = new Server(server, {
+    allowEIO3: true
+})
 const ipcRenderer = require('electron').ipcRenderer
 const { EventEmitter } = require('events')
 const path = require('path')
@@ -79,9 +81,29 @@ const setupIncomingSocketRoutes = (socket) => {
     socket.on('display-on', () => {
         ServerEmitter.emit('display-on')
     })
+
+    socket.on('set-alarm', (alarmId, time) => {
+        ServerEmitter.emit('set-alarm', alarmId, time)
+    })
+
+    socket.on('cancel-alarm', (alarmId) => {
+        ServerEmitter.emit('cancel-alarm', alarmId)
+    })
+
+    socket.on('destroy-alarm', (alarmId) => {
+        ServerEmitter.emit('cancel-alarm', alarmId)
+    })
+
+    socket.on('stop-alarm', () => {
+        ServerEmitter.emit('stop-alarm')
+    })
 }
 
 const setupOutgoingSocketRoutes = () => {
+    ServerEmitter.on('alarm-playing', (alarmId) => {
+        io.emit('alarm-playing', { data: alarmId })
+    })
+
     ServerEmitter.on('send-live', (imageObj) => {
         io.emit('live-image', imageObj)
     })

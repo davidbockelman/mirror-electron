@@ -3,8 +3,9 @@ const path = require('path')
 
 
 const rpio = require('./rpigpio')
+const ServerEmitter = require('./server')
 const Server = require('./server')
-
+var timeoutId = undefined
 
 var win
 
@@ -22,8 +23,6 @@ const createWindow = () => {
     return win
 }
 
-
-
 app.whenReady().then(() => {
     win = createWindow()
     win.webContents.send('modules-start')
@@ -31,19 +30,70 @@ app.whenReady().then(() => {
     setupRpio(win.webContents)
 })
 
-const setupRpio = (contents) => [
-    rpio.setMotionWatchDog((pin) => {
+const setupRpio = (contents) => {
+
+    rpio.setPlayCallback((alarmId) => {
+        Server.emit("alarm-playing", alarmId)
+    })
+
+
+    rpio.setMotionWatchDog((pin, userLock) => {
         console.log('motion')
-        if (pin.read()) {
-            contents.send('exit-fullscreen')
-        } else {
-            contents.send('make-fullscreen', '')
+        const val = pin.read()
+        if (!userLock) {
+            if (val) {
+                rpio.stopAlarm()
+                contents.send('exit-fullscreen')
+                timeoutId = setTimeout(() => {
+                    contents.send('make-fullscreen', '')
+                }, 5000)
+            } 
         }
     })
-]
+}
+
+const timeToMs = (time) => {
+    var hours = parseInt(time.substring(0, 2))
+    hours = (hours == 12) ? 0 : hours
+    var min = parseInt(time.substring(2, 4))
+    if (time.substring(4, 6) == "PM") {
+        hours += 12
+    }
+    //console.log('hour: ' + hours + ' min: ' + min)
+    const date = new Date()
+    const curHour = date.getHours()
+    const curMin = date.getMinutes()
+    var diff = 0
+    if (hours < curHour || (hours == curHour && min <= curMin)) {
+        //day behind
+        diff += ((60 - curMin) * 60000) + ((23 - curHour) * 60 * 60000)
+        diff += (hours * 60 * 60000) + (min * 60000)
+        return diff
+
+    } else {
+        if (hours == curHour) {
+            return (min - curMin) * 60000
+        }
+        return ((60 - curMin) * 60000) + ((hours - curHour) * 60 * 60000) + (min * 60000)
+    }
+}
 
 const initServer = (contents) => {
     //setup events from server
+
+    Server.on('stop-alarm', () => {
+        rpio.stopAlarm()
+    })
+
+    Server.on('set-alarm', (alarmId, time) => {
+        const ms = timeToMs(time)
+        rpio.setAlarm(alarmId, ms)
+    })
+
+    Server.on('cancel-alarm', (alarmId) => {
+        rpio.cancelAlarm(alarmId)
+    })
+
     Server.on('req-live', () => {
         rpio.startLivestream((image) => {
             Server.emit('send-live', { data: image.toString('base64') })
@@ -109,6 +159,9 @@ const initServer = (contents) => {
     Server.on('display-on', () => {
         contents.send('exit-fullscreen')
         rpio.setUserLock()
+        if (timeoutId) {
+            clearTimeout(timeoutId)
+        }
     })
 
     Server.on('display-off', () => {

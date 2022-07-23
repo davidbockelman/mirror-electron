@@ -1,10 +1,13 @@
-const { INPUT, HIGH, OUTPUT } = require('rpio')
+const { INPUT, HIGH, OUTPUT, i2cReadRegisterRestart } = require('rpio')
 const rpio = require('rpio')
 const { StillCamera, StreamCamera, Codec } = require('pi-camera-connect')
 const fs = require('fs')
 const path = require('path')
 const { EventEmitter } = require('stream')
-const Audic = require('audic')
+const mpg = require('node-mpg123')
+const player = new mpg(path.join(__dirname, 'mp3', 'radar.mp3'))
+
+
 
 //pin 4 for motion-senser
 const MOT = 7
@@ -38,6 +41,9 @@ var recording = false
 var rawData = ''
 var stream
 var userLockTimeout
+var alarms = []
+var curPlaying
+
 
 module.exports = {
     setColor: (color) => {
@@ -95,9 +101,7 @@ module.exports = {
     
     setMotionWatchDog: (callback) => {
         callback = (pin) => {
-            if (!userLock){
-                callback(pin)
-            }
+            callback(pin, userLock)
         }
         rpio.poll(MOT, callback, rpio.POLL_BOTH)
     },
@@ -113,20 +117,33 @@ module.exports = {
          
     },
 
-    alarms: [],
-
     setAlarm: (alarmName, timeFromNow) => {
-        const player = new Audic(path.join(__dirname, 'mp3', 'radar.mp3'))
-        this.alarms.push({
-            alarmName: alarmName,
-            player: player
+        const timeoutId = setTimeout(() => {
+            curPlaying = alarmName
+            player.play()
+        }, timeFromNow)
+        alarms.push({
+            alarmId: alarmName,
+            timeoutId: timeoutId
+        })
+    },
+
+    stopAlarm: () => {
+        player.stop()
+    },
+
+    setPlayCallback: (callback) => {
+        player.on('play', () => {
+            console.log("Activating callback")
+            callback(curPlaying)
         })
     },
 
     cancelAlarm: (alarmName) => {
-        const alarm = this.alarms.find((alarm) => alarm.alarmName == alarmName)
-        alarm.player.destroy()
-        //this.alarms.reduce()
+        const alarm = alarms.find((alarm) => alarm.alarmId == alarmName)
+        if (alarm) {
+            clearTimeout(alarm.timeoutId)
+        }
     },
 
     
