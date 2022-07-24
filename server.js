@@ -111,6 +111,11 @@ const setupOutgoingSocketRoutes = () => {
     ServerEmitter.on('send-pic', (image) => {
         io.emit('new-image', { data: image })
     })
+
+    ServerEmitter.on('new-video', (dataObj) => {
+        console.log('Sending video')
+        io.emit('new-video', dataObj)
+    })
 }
 
 

@@ -18,7 +18,8 @@
     "pi-camera": "^1.7.0",
     "pi-camera-connect": "^0.3.4",
     "rpio": "^2.4.2",
-    "socket.io": "^4.5.1"
+    "socket.io": "^4.5.1",
+    "tree-kill": "^1.2.2"
   },
   "devDependencies": {
     "electron-rebuild": "^3.2.8"

@@ -43,9 +43,19 @@ const setupRpio = (contents) => {
         }
         
     })
-
+    var vidTimeout
     rpio.setMotionWatchDog((rpioControl, pin, userLock) => {
         const val = rpioControl.read(pin)
+        if (val) {
+            rpio.startVideo()
+        } else {
+            if (vidTimeout) {
+                clearTimeout(vidTimeout)
+            }
+            vidTimeout = setTimeout(() => {
+                rpio.stopVideo()
+            }, 5000)
+        }
         rpio.stopAlarm()
         if (!userLock) {
             if (val) {
@@ -123,9 +133,7 @@ const initServer = (contents) => {
     })
 
     Server.on('stop-recording', () => {
-        rpio.stopVideo((buf) => {
-            Server.emit('new-video', { data: buf.toString('base64') })
-        })
+        rpio.stopVideo()
     })
 
     Server.on('play-audio', (audio) => {

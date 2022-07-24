@@ -7,6 +7,8 @@ const { EventEmitter } = require('stream')
 const mpg = require('node-mpg123')
 const player = new mpg(path.join(__dirname, 'mp3', 'radar.mp3'))
 player.on('stop', () => isPlaying = false)
+const { exec, spawn } = require('child_process')
+const kill = require('tree-kill')
 
 
 
@@ -40,20 +42,29 @@ const stillCamera = new StillCamera({
 })
 const streamCamera = new StreamCamera({
     codec: Codec.MJPEG,
+    fps: 40,
     width: 720,
     height: 1280
 })
+const survCam = new StreamCamera({
+    codec: Codec.MJPEG,
+    fps: 25,
+    width: 1920,
+    height: 1080
+})
+
+var numVideos = fs.readdirSync(path.join(__dirname, 'videos')).length
+
 var lightsOn
 var streaming = false;
 var intervalId
 var recording = false
 var rawData = ''
-var stream
 var userLockTimeout
 var alarms = []
 var curPlaying
 var isPlaying = false
-
+var videoTimeout
 
 
 module.exports = {
@@ -111,7 +122,7 @@ module.exports = {
     },
     
     setMotionWatchDog: (callback) => {
-        newCallback = (pin) => {
+        newCallback = (pin) => {            
             callback(rpio, pin, userLock)
         }
         rpio.poll(MOT, newCallback, rpio.POLL_BOTH)
@@ -166,28 +177,39 @@ module.exports = {
 
     
 
-    startVideo: async () => {
+    startVideo: () => {
+        if (numVideos >= 20) {
+            fs.rmSync(fs.readdirSync(path.join(__dirname, 'videos'))[0])
+            numVideos--
+        }
         if (!recording) {
+            console.log('Recording')
             recording = true
-            stream = streamCamera.createStream()
-            rawData = ''
-            stream.on('data', (chunk) => rawData += chunk)
-            if (!streaming) {
-                await streamCamera.startCapture()
-            }
+            stream = survCam.createStream()
+            stream.pipe(fs.createWriteStream('vid.mjpeg'))
+            survCam.startCapture()
+            this.audProcess = exec('arecord -f cd -d 0 | lame - aud.mp3')
         }
         
     },
 
-    stopVideo: async (callback) => {
+    stopVideo: () => {
         if (recording) {
+            console.log('Stopping')
             recording = false
-            if (!streaming) {
-                await streamCamera.stopCapture()
-            }
-            const buf = Buffer.from(rawData)
-            callback(buf)
+            kill(this.audProcess.pid)
+            
+            survCam.stopCapture()
             stream.destroy()
+            
+            const date = new Date()
+            const fmt = date.toDateString() + '-' + date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds()
+            
+            exec('ffmpeg -y -i vid.mjpeg -i aud.mp3 -c copy \"/home/davidpi/mirror-electron/videos/' + fmt + '.mp4\"').on('exit', () => {
+                numVideos++
+                fs.rmSync('aud.mp3')
+                fs.rmSync('vid.mjpeg')
+            })
         }
     },
 
