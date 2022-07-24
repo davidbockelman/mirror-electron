@@ -1,14 +1,17 @@
-const { INPUT, HIGH, OUTPUT, i2cReadRegisterRestart } = require('rpio')
+const { INPUT, HIGH, OUTPUT, LOW } = require('rpio')
 const rpio = require('rpio')
 const { StillCamera, StreamCamera, Codec } = require('pi-camera-connect')
 const fs = require('fs')
 const path = require('path')
-const { EventEmitter } = require('stream')
 const mpg = require('node-mpg123')
 const player = new mpg(path.join(__dirname, 'mp3', 'radar.mp3'))
 player.on('stop', () => isPlaying = false)
-const { exec, spawn } = require('child_process')
+const { exec } = require('child_process')
 const kill = require('tree-kill')
+
+const INACTIVITY_TIMEOUT_MINUTES = 10
+const USERLOCK_TIMEOUT_MINUTES = 10
+const MAX_VIDEO_FILES = 20
 
 
 
@@ -22,19 +25,35 @@ setInterval(() => {
     if (!rpio.read(MOT)) {
         inactivityCallback(userLock)
     }
-}, 5000)
+}, INACTIVITY_TIMEOUT_MINUTES * 60000)
 
 var userLock = false;
 
 //lights
-var buffers = {}
-fs.readdirSync(path.join(__dirname, 'buf-dumps')).forEach((file) => {
-    var buffer = Buffer.from(fs.readFileSync(path.join(__dirname, 'buf-dumps', file)))
-    buffers[file] = buffer
-})
+
 //pin 5 for lights
 const LIT = 11
-rpio.open(LIT, OUTPUT, HIGH)
+rpio.open(LIT, OUTPUT, LOW)
+
+const sendNum2Pico = (number) => {
+    var binStr = number.toString(2)
+    const padding = 24 - binStr.length
+    for (var i = 0; i < padding; i++) {
+        binStr = '0' + binStr
+    }
+    rpio.write(LIT, 1)
+    rpio.msleep(2)
+    rpio.write(LIT, 0)
+    rpio.msleep(2)
+    for (const bit of binStr) {
+        if (bit == "1") {
+            rpio.write(LIT, 1)
+        } else {
+            rpio.write(LIT, 0)
+        }
+        rpio.msleep(10)
+    }
+}
 
 const stillCamera = new StillCamera({
     width: 720,
@@ -55,191 +74,150 @@ const survCam = new StreamCamera({
 
 var numVideos = fs.readdirSync(path.join(__dirname, 'videos')).length
 
-var lightsOn
+
 var streaming = false;
 var intervalId
 var recording = false
-var rawData = ''
 var userLockTimeout
 var alarms = []
 var curPlaying
 var isPlaying = false
-var videoTimeout
 
 
-module.exports = {
-    setColor: (color) => {
-        rpio.writebuf(LIT, buffers['R2C2'])
-        // switch (color) {
-        //     case 'red':
-        //         rpio.writebuf(LIT, buffers['R2C1'])
-        //         break
-                
-        //     default:
-        //         console.log('[RPIGPIO ERROR]: ' + color + ' is not a selectable color')
-        // }
-    },
-
-    turnLightsOff: () => {
-        if (!lightsOn) console.log('[RPIGPIO_INFO]: lights already off')
-        lightsOn = false;
-        rpio.writebuf(LIT, buffers['R1C4-off'])
-    },
-
-    turnLightsOn: () => {
-        if (lightsOn) console.log('[RPIGPIO_INFO]: lights already on')
-        lightsOn = true;
-        rpio.writebuf(LIT, buffers['R1C4-on'])
-    },
-
-    toggleLights: () => {
-        if (lightsOn) {
-            this.turnLightsOff()
-        } else {
-            this.turnLightsOn()
-        }
+module.exports = (debug) => {
+    return {
+        setUserLock: () => {
+            if (debug) console.log('[RPIGPIO_INFO]: User lock on')
+            userLock = true;
+            if (userLockTimeout) {
+                clearTimeout(userLockTimeout)
+            }
+            userLockTimeout = setTimeout(() => {
+                userLock = false
+                userLockTimeout = undefined
+            }, USERLOCK_TIMEOUT_MINUTES * 60000);
+        },
         
-    },
+        setMotionWatchDog: (callback) => {
+            newCallback = (pin) => {            
+                callback(rpio, pin, userLock)
+            }
+            rpio.poll(MOT, newCallback, rpio.POLL_BOTH)
+        },
 
-    setUserLock: () => {
-        console.log('User locked')
-        userLock = true;
-        if (userLockTimeout) {
-            clearTimeout(userLockTimeout)
-        }
-        userLockTimeout = setTimeout(() => {
-            userLock = false
-            userLockTimeout = undefined
-        }, 10 * 60000);
-    },
-
-    dimLights: () => {
-        rpio.writebuf(LIT, buffers['R1C2'])
-    },
-
-    brightenLights: () => {
-        rpio.writebuf(LIT, buffers['R1C1'])
-    },
+        setColor: (number) => {
+            sendNum2Pico(number)
+        },
     
-    setMotionWatchDog: (callback) => {
-        newCallback = (pin) => {            
-            callback(rpio, pin, userLock)
-        }
-        rpio.poll(MOT, newCallback, rpio.POLL_BOTH)
-    },
-
-    takePicture: async () => {
-        let image
-        if (streaming) {
-            image = await streamCamera.takeImage()
-        } else  {
-            image = await stillCamera.takeImage()
-        }
-        return image.toString('base64')
-         
-    },
-
-    setAlarm: (alarmName, timeFromNow) => {
-        const timeoutId = setTimeout(() => {
-            curPlaying = alarmName
-            isPlaying = true
-            player.play()
-        }, timeFromNow)
-        alarms.push({
-            alarmId: alarmName,
-            timeoutId: timeoutId
-        })
-    },
-
-    stopAlarm: () => {
-        if (isPlaying) {
-            player.stop()
-        }
-    },
-
-    setPlayCallback: (callback) => {
-        player.on('play', () => {
-            console.log("Activating callback")
-            callback(curPlaying)
-        })
-    },
-
-    setInactivityCallback: (callback) => {
-        inactivityCallback = callback
-    },
-
-    cancelAlarm: (alarmName) => {
-        const alarm = alarms.find((alarm) => alarm.alarmId == alarmName)
-        if (alarm) {
-            clearTimeout(alarm.timeoutId)
-        }
-    },
-
+        takePicture: async () => {
+            if (debug) console.log('[RPIGPIO_INFO]: Image taken')
+            let image = await stillCamera.takeImage()
+            return image.toString('base64')   
+        },
     
-
-    startVideo: () => {
-        if (numVideos >= 20) {
-            fs.rmSync(fs.readdirSync(path.join(__dirname, 'videos'))[0])
-            numVideos--
-        }
-        if (!recording) {
-            console.log('Recording')
-            recording = true
-            stream = survCam.createStream()
-            stream.pipe(fs.createWriteStream('vid.mjpeg'))
-            survCam.startCapture()
-            this.audProcess = exec('arecord -f cd -d 0 | lame - aud.mp3')
-        }
-        
-    },
-
-    stopVideo: () => {
-        if (recording) {
-            console.log('Stopping')
-            recording = false
-            kill(this.audProcess.pid)
-            
-            survCam.stopCapture()
-            stream.destroy()
-            
-            const date = new Date()
-            const fmt = date.toDateString() + '-' + date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds()
-            
-            exec('ffmpeg -y -i vid.mjpeg -i aud.mp3 -c copy \"/home/davidpi/mirror-electron/videos/' + fmt + '.mp4\"').on('exit', () => {
-                numVideos++
-                fs.rmSync('aud.mp3')
-                fs.rmSync('vid.mjpeg')
+        setAlarm: (alarmName, timeFromNow) => {
+            if (debug) console.log('[RPIGPIO_INFO]: Alarm ' + alarmName + ' has been set to go off in ' + 
+            Math.floor(timeFromNow / (60000 * 60)) + ' hours and ' + (timeFromNow % (60000 * 60)) / 60000 + ' minutes')
+            const timeoutId = setTimeout(() => {
+                curPlaying = alarmName
+                isPlaying = true
+                player.play()
+            }, timeFromNow)
+            alarms.push({
+                alarmId: alarmName,
+                timeoutId: timeoutId
             })
-        }
-    },
-
-    startLivestream: async (intervalCallback) => {
-        if (!streaming) {
-            streaming = true
-            if (!recording) {
-                await streamCamera.startCapture()
-            }
-            intervalId = setInterval(async () => {
-                const image = await streamCamera.takeImage()
-                intervalCallback(image)
-            }, 100)
-        } else {
-            console.log('[RPIGPIO_ERROR]: Already streaming')
-        }
-    }, 
-
-    endLivetream: () => {
-        if (streaming) {
-            clearInterval(intervalId)
-            if (!recording) {
-                streamCamera.stopCapture()
-            }
-            
-            streaming = false
-        } else {
-            console.log('[RPIGPIO_INFO]: Not currently streaming')
-        }
-    }
-
+        },
     
+        stopAlarm: () => {
+            if (isPlaying) {
+                player.stop()
+            }
+        },
+    
+        setPlayCallback: (callback) => {
+            player.on('play', () => {
+                if (debug) console.log('[RPIGPIO_INFO]: Audio playing')
+                callback(curPlaying)
+            })
+        },
+    
+        setInactivityCallback: (callback) => {
+            inactivityCallback = callback
+        },
+    
+        cancelAlarm: (alarmName) => {
+            const alarm = alarms.find((alarm) => alarm.alarmId == alarmName)
+            if (alarm) {
+                if (debug) console.log('[RPIGPIO_INFO]: Alarm ' + alarm.alarmId + ' has been canceled')
+                clearTimeout(alarm.timeoutId)
+            }
+        },
+    
+        startVideo: () => {
+            if (numVideos >= MAX_VIDEO_FILES) {
+                fs.rmSync(fs.readdirSync(path.join(__dirname, 'videos'))[0])
+                numVideos--
+            }
+            if (!recording) {
+                if (debug) console.log('[RPIGPIO_INFO]: Recording started.')
+                recording = true
+                stream = survCam.createStream()
+                stream.pipe(fs.createWriteStream('vid.mjpeg'))
+                survCam.startCapture()
+                this.audProcess = exec('arecord -f cd -d 0 | lame - aud.mp3')
+            } 
+        },
+    
+        stopVideo: () => {
+            if (recording) {
+                if (debug) console.log('[RPIGPIO_INFO]: Recording stopped.')
+                recording = false
+                kill(this.audProcess.pid)
+                
+                survCam.stopCapture()
+                stream.destroy()
+                
+                const date = new Date()
+                const fmt = date.toDateString() + '-' + date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds()
+                
+                exec('ffmpeg -y -i vid.mjpeg -i aud.mp3 -c copy \"/home/davidpi/mirror-electron/videos/' + fmt + '.mp4\"').on('exit', () => {
+                    numVideos++
+                    if (debug) console.log('[RPIGPIO_INFO]: Saved video: ' + fmt + '.mp4')
+                    fs.rmSync('aud.mp3')
+                    fs.rmSync('vid.mjpeg')
+                })
+            }
+        },
+    
+        startLivestream: async (intervalCallback) => {
+            if (!streaming) {
+                if (debug) console.log('[RPIGPIO_INFO]: Livestreaming started')
+                streaming = true
+                if (!recording) {
+                    await streamCamera.startCapture()
+                }
+                intervalId = setInterval(async () => {
+                    const image = await streamCamera.takeImage()
+                    intervalCallback(image)
+                }, 100)
+            } else {
+                if (debug) console.log('[RPIGPIO_ERROR]: Already streaming')
+            }
+        }, 
+    
+        endLivetream: () => {
+            if (streaming) {
+                clearInterval(intervalId)
+                if (!recording) {
+                    streamCamera.stopCapture()
+                }
+                if (debug) console.log('RPIGPIO_INFO]: Livestreaming stopped.')
+                streaming = false
+            } else {
+                if (debug) console.log('[RPIGPIO_INFO]: Not currently streaming')
+            }
+        } 
+    }
 }
+    

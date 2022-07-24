@@ -2,11 +2,13 @@ const { time } = require('console')
 const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('path')
 
+const MOTION_VIDEO_DURATION_MINUTES = 5
+const MOTION_DISPLAY_ON_MINUTES = 5
 
-const rpio = require('./rpigpio')
-const ServerEmitter = require('./server')
+const rpio = require('./rpigpio')(true)
 const Server = require('./server')
 var timeoutId = undefined
+var vidTimeout = undefined
 
 var win
 
@@ -40,10 +42,10 @@ const setupRpio = (contents) => {
     rpio.setInactivityCallback((userLock) => {
         if (!userLock) {
             contents.send('make-fullscreen', '')
-        }
-        
+        } 
     })
-    var vidTimeout
+
+
     rpio.setMotionWatchDog((rpioControl, pin, userLock) => {
         const val = rpioControl.read(pin)
         if (val) {
@@ -54,7 +56,7 @@ const setupRpio = (contents) => {
             }
             vidTimeout = setTimeout(() => {
                 rpio.stopVideo()
-            }, 5000)
+            }, MOTION_VIDEO_DURATION_MINUTES * 60000)
         }
         rpio.stopAlarm()
         if (!userLock) {
@@ -65,7 +67,7 @@ const setupRpio = (contents) => {
                 }
                 timeoutId = setTimeout(() => {
                     contents.send('make-fullscreen', '')
-                }, 5* 60000)
+                }, MOTION_DISPLAY_ON_MINUTES * 60000)
             } 
         }
     })
@@ -134,10 +136,6 @@ const initServer = (contents) => {
 
     Server.on('stop-recording', () => {
         rpio.stopVideo()
-    })
-
-    Server.on('play-audio', (audio) => {
-
     })
 
     Server.on('get-modules', () => {
