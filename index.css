@@ -19,7 +19,7 @@ html, body, #fullscreen {
 #top-bar {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
-    
+    width: 100%
 }
 
 #top-left {

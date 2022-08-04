@@ -1,0 +1,4369 @@
+
+> mirror-electron@1.0.0 start
+> electron .
+
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Travis Scott A-Team' ]
+A-Team
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+(node:9614) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 alarm-playing listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(Use `electron --trace-warnings ...` to show where the warning was created)
+(node:9614) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 send-live listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:9614) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 send-pic listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:9614) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 new-video listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:9614) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 music-file-ready listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+[SERVER_INFO]: Got a message with args [ 'search-music', 'A$AP Rocky A$AP Forever (feat. Moby)' ]
+A$AP Rocky feat. Moby - A$AP Forever
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'search-music', 'A$AP Rocky A$AP Forever (feat. Moby)' ]
+A$AP Rocky feat. Moby - A$AP Forever
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'search-music', 'J. Cole Apparently' ]
+Apparently
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'search-music', 'J. Cole ATM' ]
+ATM
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Travis Scott A-Team' ]
+A-Team
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'search-music', '21 Savage asmr' ]
+asmr
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', '21 Savage asmr' ]
+asmr
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'search-music', 'A$AP Rocky A$AP Forever (feat. Moby)' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'A$AP Rocky A$AP Forever (feat. Moby)' ]
+A$AP Rocky feat. Moby - A$AP Forever
+A$AP Rocky feat. Moby - A$AP Forever
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'A$AP Rocky A$AP Forever (feat. Moby)' ]
+A$AP Rocky feat. Moby - A$AP Forever
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'A$AP Rocky A$AP Forever (feat. Moby)' ]
+A$AP Rocky feat. Moby - A$AP Forever
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'search-music', 'A$AP Rocky A$AP Forever (feat. Moby)' ]
+A$AP Rocky feat. Moby - A$AP Forever
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'A$AP Rocky A$AP Forever (feat. Moby)' ]
+A$AP Rocky feat. Moby - A$AP Forever
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'search-music', 'A$AP Rocky A$AP Forever (feat. Moby)' ]
+A$AP Rocky feat. Moby - A$AP Forever
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'A$AP Rocky A$AP Forever (feat. Moby)' ]
+A$AP Rocky feat. Moby - A$AP Forever
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'A$AP Rocky A$AP Forever (feat. Moby)' ]
+A$AP Rocky feat. Moby - A$AP Forever
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'search-music', 'A$AP Rocky A$AP Forever (feat. Moby)' ]
+A$AP Rocky feat. Moby - A$AP Forever
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Tay-K After You' ]
+AFTER YOU #FREETAYK (PROD. AHLECKS)
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Young Thug Bad Bad Bad (feat. Lil Baby)' ]
+Bad Bad Bad (feat. Lil Baby)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 83 ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+
+> mirror-electron@1.0.0 start
+> electron .
+
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'A$AP Rocky A$AP Forever (feat. Moby)' ]
+A$AP Rocky feat. Moby - A$AP Forever
+[SERVER_INFO]: Got a message with args [ 'set-volume', 74 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 64 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Young Thug Bad Bad Bad (feat. Lil Baby)' ]
+Bad Bad Bad (feat. Lil Baby)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Gunna Banking On Me' ]
+Banking On Me
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 3003136 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 15993856 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 15991039 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'NAV Champion (feat. Travis Scott)' ]
+Champion (feat. Travis Scott)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Mac Miller Cinderella (feat. Ty Dolla $ign)' ]
+Mac Miller - Cinderella (feat. Ty Dolla $ign)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 72 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 79 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 62 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Yung Bans Different Colors (feat. Lil Yachty)' ]
+Different Colors (feat. Lil Yachty)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: WebSocket connection establised
+(node:1271) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 alarm-playing listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(Use `electron --trace-warnings ...` to show where the warning was created)
+(node:1271) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 send-live listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:1271) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 send-pic listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:1271) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 new-video listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:1271) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 music-file-ready listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+[SERVER_INFO]: Got a message with args [ 'set-volume', 69 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 65 ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Lil Baby Freestyle' ]
+Lil Baby - Freestyle
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 58 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 63 ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Playboi Carti Get It Now' ]
+Playboi Carti - Get It Now
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Hotboii Goat Talk 2 (feat. Polo G)' ]
+Goat Talk 2 (feat. Polo G)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'XXXTENTACION HEARTEATER' ]
+HEARTEATER
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Baby Keem HONEST' ]
+HONEST
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Lil Baby & Gunna I Am' ]
+Lil Baby
+[ERROR]: Error: The given URL does not link to a Soundcloud track
+Lil Baby, Gunna - Drip Too Hard
+Error: Request failed with status code 404
+    at createError (/home/davidpi/mirror-electron/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/home/davidpi/mirror-electron/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/home/davidpi/mirror-electron/node_modules/axios/lib/adapters/http.js:269:11)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  config: {
+    url: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+    method: 'get',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'User-Agent': 'axios/0.21.4'
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    withCredentials: true,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'api-v2.soundcloud.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api-v2.soundcloud.com',
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 40992,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object],
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/0.21.4\r\n' +
+      'Host: api-v2.soundcloud.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 32,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'api-v2.soundcloud.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      host: [Array]
+    }
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: {
+      'content-type': 'application/json; charset=utf-8',
+      'content-length': '2',
+      connection: 'close',
+      date: 'Mon, 01 Aug 2022 16:10:34 GMT',
+      'x-robots-tag': 'noindex',
+      'cache-control': 'private, max-age=0',
+      'referrer-policy': 'no-referrer',
+      'x-frame-options': 'DENY',
+      'x-content-type-options': 'nosniff',
+      'strict-transport-security': 'max-age=63072000',
+      server: 'am/2',
+      vary: 'Origin',
+      'x-cache': 'Error from cloudfront',
+      via: '1.1 4bfb5bb8bc988f7af3321a7aa11bee76.cloudfront.net (CloudFront)',
+      'x-amz-cf-pop': 'IAH50-C4',
+      'x-amz-cf-id': 'gKsYuZlLwOQKmzUgOyC6yJU3Wu-N-r6WsUb0WIgrRcdL7f4tr-YnOQ=='
+    },
+    config: {
+      url: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      method: 'get',
+      headers: [Object],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      withCredentials: true,
+      adapter: [Function: httpAdapter],
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      transitional: [Object],
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'GET /resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: axios/0.21.4\r\n' +
+        'Host: api-v2.soundcloud.com\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'api-v2.soundcloud.com',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    data: {}
+  },
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+(node:1271) UnhandledPromiseRejectionWarning: Error: Request failed with status code 404
+    at createError (/home/davidpi/mirror-electron/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/home/davidpi/mirror-electron/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/home/davidpi/mirror-electron/node_modules/axios/lib/adapters/http.js:269:11)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+(node:1271) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Lil Uzi Vert I Can Show You' ]
+Lil Uzi Vert - I Can Show You
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', "Drake I'm Upset" ]
+Drake - I&#x27;m Upset
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [
+  'search-music',
+  'Lil Baby Life Goes On (feat. Gunna & Lil Uzi Vert)'
+]
+Lil Baby - Life Goes On (feat. Gunna &amp; Lil Uzi Vert)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Drake Massive' ]
+Drake - Massive
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Lil Baby, Gunna & Drake Never Recover' ]
+Lil Baby, Gunna - Drip Too Hard
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Lil Baby & Moneybagg Yo No Sucker' ]
+Lil Baby
+[ERROR]: Error: The given URL does not link to a Soundcloud track
+Lil Baby, Gunna - Drip Too Hard
+Error: Request failed with status code 404
+    at createError (/home/davidpi/mirror-electron/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/home/davidpi/mirror-electron/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/home/davidpi/mirror-electron/node_modules/axios/lib/adapters/http.js:269:11)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  config: {
+    url: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+    method: 'get',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'User-Agent': 'axios/0.21.4'
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    withCredentials: true,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'api-v2.soundcloud.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api-v2.soundcloud.com',
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 52467,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object],
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/0.21.4\r\n' +
+      'Host: api-v2.soundcloud.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 32,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'api-v2.soundcloud.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      host: [Array]
+    }
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: {
+      'content-type': 'application/json; charset=utf-8',
+      'content-length': '2',
+      connection: 'close',
+      date: 'Mon, 01 Aug 2022 16:15:32 GMT',
+      'x-robots-tag': 'noindex',
+      'cache-control': 'private, max-age=0',
+      'referrer-policy': 'no-referrer',
+      'x-frame-options': 'DENY',
+      'x-content-type-options': 'nosniff',
+      'strict-transport-security': 'max-age=63072000',
+      server: 'am/2',
+      vary: 'Origin',
+      'x-cache': 'Error from cloudfront',
+      via: '1.1 172c0f88207f3936a800dc0d0c7e498c.cloudfront.net (CloudFront)',
+      'x-amz-cf-pop': 'DFW56-P1',
+      'x-amz-cf-id': 'xD2oxmkqYGRPg2GJ2sqfiSL10MaSLIpoPs6fLjXe01DcJTP_mcgQ-A=='
+    },
+    config: {
+      url: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      method: 'get',
+      headers: [Object],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      withCredentials: true,
+      adapter: [Function: httpAdapter],
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      transitional: [Object],
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'GET /resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: axios/0.21.4\r\n' +
+        'Host: api-v2.soundcloud.com\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'api-v2.soundcloud.com',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    data: {}
+  },
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+(node:1271) UnhandledPromiseRejectionWarning: Error: Request failed with status code 404
+    at createError (/home/davidpi/mirror-electron/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/home/davidpi/mirror-electron/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/home/davidpi/mirror-electron/node_modules/axios/lib/adapters/http.js:269:11)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+(node:1271) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 5)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Lil Baby & Moneybagg Yo No Sucker' ]
+Lil Baby
+[ERROR]: Error: The given URL does not link to a Soundcloud track
+Lil Baby, Gunna - Drip Too Hard
+Error: Request failed with status code 404
+    at createError (/home/davidpi/mirror-electron/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/home/davidpi/mirror-electron/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/home/davidpi/mirror-electron/node_modules/axios/lib/adapters/http.js:269:11)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  config: {
+    url: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+    method: 'get',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'User-Agent': 'axios/0.21.4'
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    withCredentials: true,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'api-v2.soundcloud.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api-v2.soundcloud.com',
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 52598,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object],
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/0.21.4\r\n' +
+      'Host: api-v2.soundcloud.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 32,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'api-v2.soundcloud.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      host: [Array]
+    }
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: {
+      'content-type': 'application/json; charset=utf-8',
+      'content-length': '2',
+      connection: 'close',
+      date: 'Mon, 01 Aug 2022 16:15:37 GMT',
+      'x-robots-tag': 'noindex',
+      'cache-control': 'private, max-age=0',
+      'referrer-policy': 'no-referrer',
+      'x-frame-options': 'DENY',
+      'x-content-type-options': 'nosniff',
+      'strict-transport-security': 'max-age=63072000',
+      server: 'am/2',
+      vary: 'Origin',
+      'x-cache': 'Error from cloudfront',
+      via: '1.1 0cd5a6be98ce7585d91391e878d1efa4.cloudfront.net (CloudFront)',
+      'x-amz-cf-pop': 'IAH50-C4',
+      'x-amz-cf-id': 'AkU1O-ZiMsriuq0qb52to_9yVUfBI7uBPCKM0i73ol9qGMrLqbQULw=='
+    },
+    config: {
+      url: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      method: 'get',
+      headers: [Object],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      withCredentials: true,
+      adapter: [Function: httpAdapter],
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      transitional: [Object],
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'GET /resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: axios/0.21.4\r\n' +
+        'Host: api-v2.soundcloud.com\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'api-v2.soundcloud.com',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    data: {}
+  },
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+(node:1271) UnhandledPromiseRejectionWarning: Error: Request failed with status code 404
+    at createError (/home/davidpi/mirror-electron/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/home/davidpi/mirror-electron/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/home/davidpi/mirror-electron/node_modules/axios/lib/adapters/http.js:269:11)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+(node:1271) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 7)
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Drake Nonstop' ]
+Drake - Nonstop
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 75 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Drake Not You Too (feat. Chris Brown)' ]
+Drake - Not You Too (feat. Chris Brown)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Gunna Oh Okay (feat. Young Thug & Lil Baby)' ]
+Gunna - Oh Okay (Ft Young Thug &amp; Lil Baby)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Future The Percocet & Stripper Joint' ]
+Future - The Percocet &amp; Stripper Joint
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'LUCKI Prada Tune' ]
+Prada Tune
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Lil Uzi Vert Prices' ]
+Lil Uzi Vert - Prices
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 63 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Yo Gotti Put a Date on It (feat. Lil Baby)' ]
+Put a Date On It (feat. Lil Baby)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'LUCKI Randomly' ]
+Randomly
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', '2 Chainz Saturday Night' ]
+Saturday Night
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Dreezy & Hit-Boy Sliders (feat. Future)' ]
+Dreezy
+[ERROR]: Error: The given URL does not link to a Soundcloud track
+Body (feat. Jeremih)
+Error: Request failed with status code 404
+    at createError (/home/davidpi/mirror-electron/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/home/davidpi/mirror-electron/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/home/davidpi/mirror-electron/node_modules/axios/lib/adapters/http.js:269:11)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  config: {
+    url: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+    method: 'get',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'User-Agent': 'axios/0.21.4'
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    withCredentials: true,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'api-v2.soundcloud.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api-v2.soundcloud.com',
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 71441,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object],
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/0.21.4\r\n' +
+      'Host: api-v2.soundcloud.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 32,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'api-v2.soundcloud.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      host: [Array]
+    }
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: {
+      'content-type': 'application/json; charset=utf-8',
+      'content-length': '2',
+      connection: 'close',
+      date: 'Mon, 01 Aug 2022 16:30:36 GMT',
+      'x-robots-tag': 'noindex',
+      'cache-control': 'private, max-age=0',
+      'referrer-policy': 'no-referrer',
+      'x-frame-options': 'DENY',
+      'x-content-type-options': 'nosniff',
+      'strict-transport-security': 'max-age=63072000',
+      server: 'am/2',
+      vary: 'Origin',
+      'x-cache': 'Error from cloudfront',
+      via: '1.1 4bfb5bb8bc988f7af3321a7aa11bee76.cloudfront.net (CloudFront)',
+      'x-amz-cf-pop': 'IAH50-C4',
+      'x-amz-cf-id': '2lHQZolpBrptqoxBeRrtLlkDopqGVgtSsN7Z0QjRIKOU-PBdAaDV9Q=='
+    },
+    config: {
+      url: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      method: 'get',
+      headers: [Object],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      withCredentials: true,
+      adapter: [Function: httpAdapter],
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      transitional: [Object],
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'GET /resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: axios/0.21.4\r\n' +
+        'Host: api-v2.soundcloud.com\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'api-v2.soundcloud.com',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    data: {}
+  },
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+(node:1271) UnhandledPromiseRejectionWarning: Error: Request failed with status code 404
+    at createError (/home/davidpi/mirror-electron/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/home/davidpi/mirror-electron/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/home/davidpi/mirror-electron/node_modules/axios/lib/adapters/http.js:269:11)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+(node:1271) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 9)
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'NAV Snap' ]
+Snap
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [
+  'search-music',
+  'Young Stoner Life, Young Thug & Gunna Solid (feat. Drake)'
+]
+Solid (feat. Young Thug, Drake, Gunna)
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [
+  'search-music',
+  'Young Stoner Life, Young Thug & Gunna Solid (feat. Drake)'
+]
+Solid (feat. Young Thug, Drake, Gunna)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'LUCKI Sunset' ]
+SUNSET [prod. @UglyFriend1 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'LUCKI Super Urus' ]
+Super Urus
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 73 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 88 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 74 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 85 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 71 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Future Too Comfortable' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Gunna Top Off' ]
+Gunna - Top Off
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'UnoTheActivist Astral Plane (High As Me)' ]
+Astral Plane (High As Me)
+[SERVER_INFO]: Got a message with args [ 'set-volume', 58 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 52 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'start-recording' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'stop-recording' ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'remove-video', 'Mon Aug 01 2022-11:43:43.mp4' ]
+removing /home/davidpi/mirror-electron/videos/Mon Aug 01 2022-11:43:43.mp4
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', '21 Savage ball w/o you' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Gunna Banking On Me' ]
+Banking On Me
+[SERVER_INFO]: Got a message with args [ 'set-volume', 74 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 65 ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'LUCKI Beverly Hills to 35th' ]
+Beverly Hills to 35th
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [
+  'search-music',
+  "A$AP Mob Blowin' Minds (Skateboard) [feat. A$AP Rocky, A$AP Nast, A$AP Ant, Chief Keef & Playboi Carti]"
+]
+Blowin&#x27; Minds (Skateboard) [feat. A$AP Rocky, A$AP Nast, A$AP Ant, Chief Keef &amp; Playboi Carti]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 56 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 47 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 36 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 41 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Metro Boomin Blue Pill (feat. Travis Scott)' ]
+Metro Boomin Feat. Travis Scott - Blue Pill
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: Got a message with args [ 'monitor-on' ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-on' ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 6144 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 11008 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 17408 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 17408 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 24832 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 31744 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 38912 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 46080 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 52992 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 59648 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 65024 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 65280 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 57856 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 52992 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 47104 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 47104 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 40960 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 35840 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 30464 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 26112 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 22784 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 19456 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 16128 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 13568 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 11264 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 8960 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 7168 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 5376 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 3840 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 2304 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 768 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 0 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 1900544 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 3538944 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 5439488 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 5439488 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 7471104 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 9240576 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 10878976 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 12451840 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 14024704 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 15269888 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 16252928 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 16711680 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 16711703 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 16711720 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 16711745 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 16711745 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 16711774 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 16711804 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 16711835 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 16711862 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 16711883 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 16711901 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 16711915 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 16711929 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-off' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'set-motion-record-dur', 0 ]
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: Got a message with args [ 'monitor-on' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 87 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'J. Cole Apparently' ]
+Apparently
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 68 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 58 ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Travis Scott ASTROTHUNDER' ]
+ASTROTHUNDER
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'LUCKI Beverly Hills to 35th' ]
+Beverly Hills to 35th
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'display-off' ]
+[SERVER_INFO]: Got a message with args [ 'display-on' ]
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'NAV & Metro Boomin Call Me' ]
+NAV
+[ERROR]: Error: The given URL does not link to a Soundcloud track
+NAV
+Error: Request failed with status code 404
+    at createError (/home/davidpi/mirror-electron/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/home/davidpi/mirror-electron/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/home/davidpi/mirror-electron/node_modules/axios/lib/adapters/http.js:269:11)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  config: {
+    url: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+    method: 'get',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'User-Agent': 'axios/0.21.4'
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    withCredentials: true,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'api-v2.soundcloud.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api-v2.soundcloud.com',
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 113239,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object],
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/0.21.4\r\n' +
+      'Host: api-v2.soundcloud.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 3,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 32,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'api-v2.soundcloud.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      host: [Array]
+    }
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: {
+      'content-type': 'application/json; charset=utf-8',
+      'content-length': '2',
+      connection: 'close',
+      date: 'Mon, 01 Aug 2022 19:11:46 GMT',
+      'x-robots-tag': 'noindex',
+      'cache-control': 'private, max-age=0',
+      'referrer-policy': 'no-referrer',
+      'x-frame-options': 'DENY',
+      'x-content-type-options': 'nosniff',
+      'strict-transport-security': 'max-age=63072000',
+      server: 'am/2',
+      vary: 'Origin',
+      'x-cache': 'Error from cloudfront',
+      via: '1.1 b7525c99752d4c74ac370828dee9ad1c.cloudfront.net (CloudFront)',
+      'x-amz-cf-pop': 'IAH50-C4',
+      'x-amz-cf-id': '2F4bc1jgnNh-gWbnE_8vGcLPyZY3r2X37DI0l9D4QptG0tIzGMM2rg=='
+    },
+    config: {
+      url: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      method: 'get',
+      headers: [Object],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      withCredentials: true,
+      adapter: [Function: httpAdapter],
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      transitional: [Object],
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'GET /resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: axios/0.21.4\r\n' +
+        'Host: api-v2.soundcloud.com\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'api-v2.soundcloud.com',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    data: {}
+  },
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+(node:1271) UnhandledPromiseRejectionWarning: Error: Request failed with status code 404
+    at createError (/home/davidpi/mirror-electron/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/home/davidpi/mirror-electron/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/home/davidpi/mirror-electron/node_modules/axios/lib/adapters/http.js:269:11)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+(node:1271) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 11)
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Gunna Car Sick (feat. NAV & Metro Boomin)' ]
+Gunna - Car Sick (feat. NAV)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 76 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 64 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 86 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 75 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 65 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 1966335 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 1966110 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 1970462 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 1970432 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 1970447 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 1970432 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 1970443 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16716043 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16716287 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'monitor-on' ]
+[SERVER_INFO]: Got a message with args [ 'display-off' ]
+[SERVER_INFO]: Got a message with args [ 'display-on' ]
+[SERVER_INFO]: Got a message with args [ 'display-off' ]
+[SERVER_INFO]: Got a message with args [ 'display-on' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Mac Miller Cinderella (feat. Ty Dolla $ign)' ]
+Mac Miller - Cinderella (feat. Ty Dolla $ign)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711680 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16776960 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16777215 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'display-off' ]
+[SERVER_INFO]: Got a message with args [ 'display-on' ]
+[SERVER_INFO]: Got a message with args [ 'display-off' ]
+[SERVER_INFO]: Got a message with args [ 'set-motion-record-dur', 0 ]
+[SERVER_INFO]: Got a message with args [ 'display-on' ]
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Tay-K After You' ]
+AFTER YOU #FREETAYK (PROD. AHLECKS)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 70 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 56 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 71 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 79 ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+
+> mirror-electron@1.0.0 start
+> electron .
+
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 15597782 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Drake Desires (feat. Future)' ]
+Drake - Desires (feat. Future)
+[SERVER_INFO]: Got a message with args [ 'set-volume', 61 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'start-recording' ]
+[SERVER_INFO]: Got a message with args [ 'stop-recording' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'remove-video', 'Mon Aug 01 2022-15:2:16.mp4' ]
+removing /home/davidpi/mirror-electron/videos/Mon Aug 01 2022-15:2:16.mp4
+[SERVER_INFO]: WebSocket connection establised
+(node:1258) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 alarm-playing listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(Use `electron --trace-warnings ...` to show where the warning was created)
+(node:1258) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 send-live listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:1258) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 send-pic listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:1258) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 new-video listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:1258) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 music-file-ready listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+[SERVER_INFO]: Got a message with args [ 'set-motion-record-dur', 0 ]
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: Got a message with args [ 'monitor-on' ]
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: Got a message with args [ 'monitor-on' ]
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Lil Uzi Vert Lotus' ]
+Lil Uzi Vert - Lotus
+[SERVER_INFO]: Got a message with args [ 'set-volume', 68 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 56 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 62 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 53 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 39 ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 64 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 77 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'set-motion-record-dur', 0 ]
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: Got a message with args [ 'monitor-on' ]
+[SERVER_INFO]: Got a message with args [ 'display-off' ]
+[SERVER_INFO]: Got a message with args [ 'display-on' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'A$AP Rocky A$AP Forever (feat. Moby)' ]
+A$AP Rocky feat. Moby - A$AP Forever
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Tay-K After You' ]
+AFTER YOU #FREETAYK (PROD. AHLECKS)
+[SERVER_INFO]: Got a message with args [ 'set-volume', 56 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Travis Scott ASTROTHUNDER' ]
+ASTROTHUNDER
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Gunna Banking On Me' ]
+Banking On Me
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Gunna Banking On Me' ]
+Banking On Me
+[SERVER_INFO]: Got a message with args [ 'set-volume', 46 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 50 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 42 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 43 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'start-recording' ]
+[SERVER_INFO]: Got a message with args [ 'stop-recording' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', '21 Savage Bank Account' ]
+Bank Account
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+
+> mirror-electron@1.0.0 start
+> electron .
+
+[1m[47m[31mA JavaScript error occurred in the main process
+[30mUncaught Exception:
+Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (node:net:1330:16)
+    at listenInCluster (node:net:1378:12)
+    at Server.listen (node:net:1465:7)
+    at Object.<anonymous> (/home/davidpi/mirror-electron/server.js:51:8)
+    at Module._compile (node:internal/modules/cjs/loader:1118:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1173:10)
+    at Module.load (node:internal/modules/cjs/loader:988:32)
+    at Module._load (node:internal/modules/cjs/loader:829:12)
+    at c._load (node:electron/js2c/asar_bundle:5:13343)
+    at Module.require (node:internal/modules/cjs/loader:1012:19)[0m
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'set-motion-record-dur', 0 ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 7340032 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'remove-video', 'Mon Aug 01 2022-17:47:30.mp4' ]
+removing /home/davidpi/mirror-electron/videos/Mon Aug 01 2022-17:47:30.mp4
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 65280 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'UnoTheActivist Astral Plane (High As Me)' ]
+Astral Plane (High As Me)
+[SERVER_INFO]: Got a message with args [ 'set-volume', 65 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'A$AP Rocky Angels' ]
+A$AP Rocky - Angels
+[SERVER_INFO]: Got a message with args [ 'set-volume', 91 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 53 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Stunna 4 Vegas Ashley (feat. DaBaby)' ]
+Stunna 4 Vegas - Billion Dollar Baby Freestyle Feat DaBaby
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [
+  'search-music',
+  'Shoreline Mafia Bands (feat. Ohgeesy, Fenix Flexin & Master Kato)'
+]
+Bands (feat. OhGeesy, Fenix Flexin &amp; Master Kato)
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Mac Miller Cinderella (feat. Ty Dolla $ign)' ]
+Mac Miller - Cinderella (feat. Ty Dolla $ign)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 82 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 90 ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 29 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 36 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 42 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 35 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 45 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 71 ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'start-recording' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16777215 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'stop-recording' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16777215 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16777215 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16777215 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711909 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 43 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 75 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 54 ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'remove-video', 'Mon Aug 01 2022-18:1:26.mp4' ]
+removing /home/davidpi/mirror-electron/videos/Mon Aug 01 2022-18:1:26.mp4
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [
+  'search-music',
+  'GoldLink Crew (Remix) [feat. Gucci Mane, Brent Faiyaz & Shy Glizzy]'
+]
+Crew REMIX (feat. Gucci Mane, Brent Faiyaz &amp; Shy Glizzy)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Immortal Technique Dance With the Devil' ]
+Dance with the Devil
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Future & Lil Uzi Vert Drankin N Smokin' ]
+Future
+[ERROR]: Error: The given URL does not link to a Soundcloud track
+F Ck Up Some Commas
+Error: Request failed with status code 404
+    at createError (/home/davidpi/mirror-electron/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/home/davidpi/mirror-electron/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/home/davidpi/mirror-electron/node_modules/axios/lib/adapters/http.js:269:11)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  config: {
+    url: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+    method: 'get',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'User-Agent': 'axios/0.21.4'
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    withCredentials: true,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'api-v2.soundcloud.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api-v2.soundcloud.com',
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 113047,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object],
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/0.21.4\r\n' +
+      'Host: api-v2.soundcloud.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 32,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'api-v2.soundcloud.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      host: [Array]
+    }
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: {
+      'content-type': 'application/json; charset=utf-8',
+      'content-length': '2',
+      connection: 'close',
+      date: 'Mon, 01 Aug 2022 23:21:12 GMT',
+      'x-robots-tag': 'noindex',
+      'cache-control': 'private, max-age=0',
+      'referrer-policy': 'no-referrer',
+      'x-frame-options': 'DENY',
+      'x-content-type-options': 'nosniff',
+      'strict-transport-security': 'max-age=63072000',
+      server: 'am/2',
+      vary: 'Origin',
+      'x-cache': 'Error from cloudfront',
+      via: '1.1 7430e08fa3a2805900950baba5038604.cloudfront.net (CloudFront)',
+      'x-amz-cf-pop': 'IAH50-C4',
+      'x-amz-cf-id': 'drsBHHHRF8kN8NKAhhy1KP7PZTXfQg8yEj0E2gE_ejjiH4tI6FSA_w=='
+    },
+    config: {
+      url: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      method: 'get',
+      headers: [Object],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      withCredentials: true,
+      adapter: [Function: httpAdapter],
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      transitional: [Object],
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'GET /resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: axios/0.21.4\r\n' +
+        'Host: api-v2.soundcloud.com\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'api-v2.soundcloud.com',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    data: {}
+  },
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+(node:1258) UnhandledPromiseRejectionWarning: Error: Request failed with status code 404
+    at createError (/home/davidpi/mirror-electron/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/home/davidpi/mirror-electron/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/home/davidpi/mirror-electron/node_modules/axios/lib/adapters/http.js:269:11)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+(node:1258) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Future & Young Thug Drip on Me' ]
+Future
+[ERROR]: Error: The given URL does not link to a Soundcloud track
+F Ck Up Some Commas
+Error: Request failed with status code 404
+    at createError (/home/davidpi/mirror-electron/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/home/davidpi/mirror-electron/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/home/davidpi/mirror-electron/node_modules/axios/lib/adapters/http.js:269:11)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  config: {
+    url: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+    method: 'get',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'User-Agent': 'axios/0.21.4'
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    withCredentials: true,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'api-v2.soundcloud.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api-v2.soundcloud.com',
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 113140,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object],
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/0.21.4\r\n' +
+      'Host: api-v2.soundcloud.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 32,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'api-v2.soundcloud.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      host: [Array]
+    }
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: {
+      'content-type': 'application/json; charset=utf-8',
+      'content-length': '2',
+      connection: 'close',
+      date: 'Mon, 01 Aug 2022 23:21:33 GMT',
+      'x-robots-tag': 'noindex',
+      'cache-control': 'private, max-age=0',
+      'referrer-policy': 'no-referrer',
+      'x-frame-options': 'DENY',
+      'x-content-type-options': 'nosniff',
+      'strict-transport-security': 'max-age=63072000',
+      server: 'am/2',
+      vary: 'Origin',
+      'x-cache': 'Error from cloudfront',
+      via: '1.1 282a9f8ae9c75ca0d28f2bd88b199fb4.cloudfront.net (CloudFront)',
+      'x-amz-cf-pop': 'IAH50-C4',
+      'x-amz-cf-id': 'oDyVf2HHdqdXLjeDBHs8-RUdQtpq0P7cHmzGXO5KTmD-5xYAc6x2Hw=='
+    },
+    config: {
+      url: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      method: 'get',
+      headers: [Object],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      withCredentials: true,
+      adapter: [Function: httpAdapter],
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      transitional: [Object],
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'GET /resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: axios/0.21.4\r\n' +
+        'Host: api-v2.soundcloud.com\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'api-v2.soundcloud.com',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    data: {}
+  },
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+(node:1258) UnhandledPromiseRejectionWarning: Error: Request failed with status code 404
+    at createError (/home/davidpi/mirror-electron/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/home/davidpi/mirror-electron/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/home/davidpi/mirror-electron/node_modules/axios/lib/adapters/http.js:269:11)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+(node:1258) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'display-off' ]
+[SERVER_INFO]: Got a message with args [ 'display-on' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Lil Baby & Gunna Drip Too Hard' ]
+Lil Baby
+[ERROR]: Error: The given URL does not link to a Soundcloud track
+Lil Baby, Gunna - Drip Too Hard
+Error: Request failed with status code 404
+    at createError (/home/davidpi/mirror-electron/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/home/davidpi/mirror-electron/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/home/davidpi/mirror-electron/node_modules/axios/lib/adapters/http.js:269:11)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  config: {
+    url: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+    method: 'get',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'User-Agent': 'axios/0.21.4'
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    withCredentials: true,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'api-v2.soundcloud.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api-v2.soundcloud.com',
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 113258,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object],
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/0.21.4\r\n' +
+      'Host: api-v2.soundcloud.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 32,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'api-v2.soundcloud.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      host: [Array]
+    }
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: {
+      'content-type': 'application/json; charset=utf-8',
+      'content-length': '2',
+      connection: 'close',
+      date: 'Mon, 01 Aug 2022 23:22:10 GMT',
+      'x-robots-tag': 'noindex',
+      'cache-control': 'private, max-age=0',
+      'referrer-policy': 'no-referrer',
+      'x-frame-options': 'DENY',
+      'x-content-type-options': 'nosniff',
+      'strict-transport-security': 'max-age=63072000',
+      server: 'am/2',
+      vary: 'Origin',
+      'x-cache': 'Error from cloudfront',
+      via: '1.1 343bf0673077d89b10a11d6681331656.cloudfront.net (CloudFront)',
+      'x-amz-cf-pop': 'DFW56-P2',
+      'x-amz-cf-id': 'lIdaYpATgpHz_xU3-b7ZehwOIfS4WGm3vvcUUfoaxARrbD9SGxufkw=='
+    },
+    config: {
+      url: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      method: 'get',
+      headers: [Object],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      withCredentials: true,
+      adapter: [Function: httpAdapter],
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      transitional: [Object],
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'GET /resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: axios/0.21.4\r\n' +
+        'Host: api-v2.soundcloud.com\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'api-v2.soundcloud.com',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    data: {}
+  },
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+(node:1258) UnhandledPromiseRejectionWarning: Error: Request failed with status code 404
+    at createError (/home/davidpi/mirror-electron/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/home/davidpi/mirror-electron/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/home/davidpi/mirror-electron/node_modules/axios/lib/adapters/http.js:269:11)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+(node:1258) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 6)
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Gunna Drip or Drown' ]
+Drip or Drown
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Tyler, The Creator EARFQUAKE' ]
+Tyler, The Creator - EARFQUAKE
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'JayDaYoungan Elimination' ]
+Elimination (@ProdByKairo)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 71 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 81 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 55 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Roddy Ricch Every Season' ]
+Every Season
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'LUCKI Faith' ]
+Faith
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Playboi Carti Get It Now' ]
+Playboi Carti - Get It Now
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Hotboii Goat Talk 2 (feat. Polo G)' ]
+Goat Talk 2 (feat. Polo G)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 64 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'LUCKI Greed (feat. Lil Yachty)' ]
+Greed (feat. Lil Yachty)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Travis Scott Houdini' ]
+Houdini - Travis Scott Playboi Carti
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Lil Baby & Gunna I Am' ]
+Lil Baby
+[ERROR]: Error: The given URL does not link to a Soundcloud track
+Lil Baby, Gunna - Drip Too Hard
+Error: Request failed with status code 404
+    at createError (/home/davidpi/mirror-electron/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/home/davidpi/mirror-electron/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/home/davidpi/mirror-electron/node_modules/axios/lib/adapters/http.js:269:11)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  config: {
+    url: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+    method: 'get',
+    headers: {
+      Accept: 'application/json, text/plain, */*',
+      'User-Agent': 'axios/0.21.4'
+    },
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    withCredentials: true,
+    adapter: [Function: httpAdapter],
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    validateStatus: [Function: validateStatus],
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'api-v2.soundcloud.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'api-v2.soundcloud.com',
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 135542,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object],
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/0.21.4\r\n' +
+      'Host: api-v2.soundcloud.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'Not Found',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 32,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'api-v2.soundcloud.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      host: [Array]
+    }
+  },
+  response: {
+    status: 404,
+    statusText: 'Not Found',
+    headers: {
+      'content-type': 'application/json; charset=utf-8',
+      'content-length': '2',
+      connection: 'close',
+      date: 'Mon, 01 Aug 2022 23:30:39 GMT',
+      'x-robots-tag': 'noindex',
+      'cache-control': 'private, max-age=0',
+      'referrer-policy': 'no-referrer',
+      'x-frame-options': 'DENY',
+      'x-content-type-options': 'nosniff',
+      'strict-transport-security': 'max-age=63072000',
+      server: 'am/2',
+      vary: 'Origin',
+      'x-cache': 'Error from cloudfront',
+      via: '1.1 bff9acbc17b861be147115976256d9b0.cloudfront.net (CloudFront)',
+      'x-amz-cf-pop': 'DFW56-P2',
+      'x-amz-cf-id': 'U59LIdqIbt_iWSi1WcnjyHvvq2BgQhJjV_BSgUwnFYQYJQWJj9uzww=='
+    },
+    config: {
+      url: 'https://api-v2.soundcloud.com/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      method: 'get',
+      headers: [Object],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      withCredentials: true,
+      adapter: [Function: httpAdapter],
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      validateStatus: [Function: validateStatus],
+      transitional: [Object],
+      data: undefined
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      socket: [TLSSocket],
+      _header: 'GET /resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'User-Agent: axios/0.21.4\r\n' +
+        'Host: api-v2.soundcloud.com\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      path: '/resolve?url=https%3A%2F%2Fsoundcloud.com%3Cli%3E%3Ch2%3E%3Ca+href%3D&client_id=OrZoy8IshHh0YwFZmmXWC0ORwJNEKm9Z',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'api-v2.soundcloud.com',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    data: {}
+  },
+  isAxiosError: true,
+  toJSON: [Function: toJSON]
+}
+(node:1258) UnhandledPromiseRejectionWarning: Error: Request failed with status code 404
+    at createError (/home/davidpi/mirror-electron/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/home/davidpi/mirror-electron/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/home/davidpi/mirror-electron/node_modules/axios/lib/adapters/http.js:269:11)
+    at IncomingMessage.emit (node:events:538:35)
+    at endReadableNT (node:internal/streams/readable:1345:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+(node:1258) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 8)
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'D. Savage I Know' ]
+I Know II
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [
+  'search-music',
+  "DJ Khaled I'm On One (feat. Drake, Rick Ross & Lil Wayne)"
+]
+I&#x27;m On One (Explicit Version) [feat. Drake, Rick Ross &amp; Lil Wayne]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', "Drake I'm Upset" ]
+Drake - I&#x27;m Upset
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Playboi Carti ILoveUIHateU' ]
+ILoveUIHateU
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711680 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711680 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Mac Miller Jet Fuel' ]
+Jet Fuel
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Sickboyrari K9 Crew' ]
+SICKBOYRARI ## K9 CREW ## [PROD JAGUARCLAW]****
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Lil Baby Leaked' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Playboi Carti Lean 4 Real (feat. Skepta)' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Lil Uzi Vert Left Right' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+Playboi Carti - Lean 4 Real (feat. Skepta)
+Lil Uzi Vert | &quot;Left Right&quot; Ft. Playboi Carti (Prod. By Don Cannon, DJ Spinz, Maaly Raw)
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [
+  'search-music',
+  'Lil Baby Life Goes On (feat. Gunna & Lil Uzi Vert)'
+]
+Lil Baby - Life Goes On (feat. Gunna &amp; Lil Uzi Vert)
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Lil Uzi Vert Lo Mein' ]
+Lil Uzi Vert - Lo Mein
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [
+  'search-music',
+  'Young Thug The London (feat. J. Cole & Travis Scott)'
+]
+The London (ft. J. Cole &amp; Travis Scott)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 54 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 47 ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Playboi Carti A Lot On My Mind' ]
+Playboi Carti - A Lot On My Mind
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Playboi Carti Love Hurts (feat. Travis Scott)' ]
+++* love hurts ** + TRAVIS SCOTT *
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 61 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 71 ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Travis Scott A-Team' ]
+A-Team
+[SERVER_INFO]: Got a message with args [ 'set-volume', 56 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'A$AP Rocky A$AP Forever (feat. Moby)' ]
+A$AP Rocky feat. Moby - A$AP Forever
+[SERVER_INFO]: Got a message with args [ 'set-volume', 65 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Young Nudy Abm' ]
+ABM
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 67 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 79 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 56 ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'A$AP Rocky Angels' ]
+A$AP Rocky - Angels
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 66 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 50 ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+
+> mirror-electron@1.0.0 start
+> electron .
+
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'set-volume', 49 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'J. Cole Apparently' ]
+Apparently
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 57 ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'UnoTheActivist Astral Plane (High As Me)' ]
+Astral Plane (High As Me)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711680 ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Young Thug Bad Bad Bad (feat. Lil Baby)' ]
+Bad Bad Bad (feat. Lil Baby)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Gunna Banking On Me' ]
+Banking On Me
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Mac Miller Hurt Feelings' ]
+Hurt Feelings
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', "Future I'm so Groovy" ]
+Future - I&#x27;m so Groovy
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+/home/davidpi/mirror-electron/node_modules/electron/dist/electron exited with signal SIGSEGV
+
+> mirror-electron@1.0.0 start
+> electron .
+
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'set-motion-record-dur', 0 ]
+[SERVER_INFO]: Got a message with args [
+  'gmail-auth-code',
+  '4/0AdQt8qjUz6eb-lZgLAGceluMTkZE7kQUmetHlIXuw_HNzthSzst30Lg799HpvVc1qGrV2Q'
+]
+[SERVER_INFO]: Got a message with args [ 'set-emails-displayed', 5 ]
+[SERVER_INFO]: Got a message with args [ 'set-emails-displayed', 2 ]
+[SERVER_INFO]: Got a message with args [ 'set-emails-displayed', 5 ]
+/home/davidpi/mirror-electron/node_modules/electron/dist/electron exited with signal SIGSEGV
+
+> mirror-electron@1.0.0 start
+> electron .
+
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'set-motion-record-dur', 0 ]
+[SERVER_INFO]: Got a message with args [
+  'gmail-auth-code',
+  '4/0AdQt8qhCVNLtOQrV360PsrR9gsNYR94yQf__HC8iIJMB_MJpBtAVEEcQ91bRZDlBM61O7g'
+]
+[SERVER_INFO]: Got a message with args [ 'set-emails-displayed', 4 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 53 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 63 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'NAV & Metro Boomin A$AP Ferg (feat. Lil Uzi Vert)' ]
+A$AP Ferg (feat. Lil Uzi Vert)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 70 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 60 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'NAV & Metro Boomin Call Me' ]
+NAV - ME AND MY BITCH Prod. Metro Boomin
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'A$AP Rocky Canal St. (feat. Bones)' ]
+A$AP Rocky feat. Bones - Canal St.
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 67 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: WebSocket connection establised
+(node:17192) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 alarm-playing listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(Use `electron --trace-warnings ...` to show where the warning was created)
+(node:17192) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 send-live listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:17192) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 send-pic listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:17192) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 new-video listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:17192) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 music-file-ready listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:17192) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 cant-get-title listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:17192) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 sc-query-result listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:17192) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 gmail-ready listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Mac Miller Cinderella (feat. Ty Dolla $ign)' ]
+Mac Miller - Cinderella (feat. Ty Dolla $ign)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 6684927 ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 6684927 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 53 ]
+[SERVER_INFO]: Got a message with args [ 'display-off' ]
+[SERVER_INFO]: Got a message with args [ 'display-on' ]
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: Got a message with args [ 'monitor-on' ]
+[SERVER_INFO]: Got a message with args [ 'display-off' ]
+[SERVER_INFO]: Got a message with args [ 'display-on' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 6684927 ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+/home/davidpi/mirror-electron/node_modules/electron/dist/electron exited with signal SIGSEGV
+
+> mirror-electron@1.0.0 start
+> electron .
+
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'display-off' ]
+[SERVER_INFO]: Got a message with args [ 'display-on' ]
+[SERVER_INFO]: Got a message with args [
+  'gmail-auth-code',
+  '4/0AdQt8qhN64gQE-4_JeE4fVv2fO5QbOhJsnKG09CksQ4eztyWilHiZYTtumWmtW8HgjCf7A'
+]
+[SERVER_INFO]: Got a message with args [ 'set-emails-displayed', 4 ]
+[SERVER_INFO]: Got a message with args [ 'set-emails-displayed', 5 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 6684927 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'NAV & Metro Boomin Did You See NAV?' ]
+Did You See NAV?
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Drake Diplomatic Immunity' ]
+Drake - Diplomatic Immunity
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 62 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 50 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 6684709 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 6728997 ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Lil Uzi Vert Do What I Want' ]
+Do What I Want [Produced By Maaly Raw + Don Cannon]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 64 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 55 ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-emails-displayed', 1 ]
+[SERVER_INFO]: Got a message with args [ 'set-emails-displayed', 5 ]
+[SERVER_INFO]: Got a message with args [ 'set-emails-displayed', 4 ]
+[SERVER_INFO]: Got a message with args [ 'set-emails-displayed', 5 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 6684709 ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'start-recording' ]
+[SERVER_INFO]: Got a message with args [ 'stop-recording' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: WebSocket connection establised
+(node:1229) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 alarm-playing listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(Use `electron --trace-warnings ...` to show where the warning was created)
+(node:1229) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 send-live listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:1229) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 send-pic listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:1229) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 new-video listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:1229) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 music-file-ready listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:1229) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 cant-get-title listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:1229) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 sc-query-result listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:1229) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 gmail-ready listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+[SERVER_INFO]: Got a message with args [ 'remove-video', 'Wed Aug 03 2022-4:3:30.mp4' ]
+removing /home/davidpi/mirror-electron/videos/Wed Aug 03 2022-4:3:30.mp4
+[SERVER_INFO]: Got a message with args [ 'get-videos' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 6749989 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16776997 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16777215 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16756735 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16756553 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'JayDaYoungan Elimination' ]
+Elimination (@ProdByKairo)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16756735 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 8105983 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 8061183 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 62 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 68 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 50 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 60 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 40 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 49 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'LUCKI Faith' ]
+Faith
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 8061183 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'LUCKI Faith' ]
+Faith
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 8061183 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 8061183 ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-motion-record-dur', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-alarm', '467DCA3F-AEBF-488B-A521-F9B0B3B853F5', '0900AM' ]
+[SERVER_INFO]: Got a message with args [ 'set-alarm', '8530CCCB-EA6B-451F-9E41-1EB10688CC23', '0905AM' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 90 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-on' ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 13041919 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 11862271 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 11534591 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 11272447 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 11272447 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 11075839 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 10879231 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 10748159 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 10617087 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 10486015 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 10354943 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 10223871 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 10092799 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 9961727 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 9896191 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 9699583 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 9634047 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 9502975 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 9437439 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 9371903 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 9306367 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 9240831 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 9109759 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 9044223 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 8913151 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 8847615 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 8782079 ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-color', 8716543 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 13041919 ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 7864575 ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 2031871 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 6029567 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 8126719 ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'set-lights', 8126719 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 47 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 86 ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 8126719 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'set-lights', 8126719 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'destroy-alarm', '467DCA3F-AEBF-488B-A521-F9B0B3B853F5' ]
+[SERVER_INFO]: Got a message with args [ 'destroy-alarm', '8530CCCB-EA6B-451F-9E41-1EB10688CC23' ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-on' ]
+[SERVER_INFO]: Got a message with args [ 'set-motion-record-dur', 0 ]
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: Got a message with args [ 'monitor-on' ]
+[SERVER_INFO]: Got a message with args [ 'motion-lights-off' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Thouxanbanfauni AMERICAN MUSCLE' ]
+American Muscle
+[SERVER_INFO]: Got a message with args [ 'set-volume', 48 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 8126719 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'monitor-on' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'UnoTheActivist Cash Cow' ]
+Cash Cow [dreamawake]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 54 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 61 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 69 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 76 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', "Hotboii Don't Need Time" ]
+Don&#x27;t Need Time
+[SERVER_INFO]: Got a message with args [ 'set-volume', 60 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Duwap Kaine Hard 2 Please' ]
+Hard 2 Please (Prod.Joshtxyi)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 67 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Lil Baby In A Minute' ]
+Lil Baby - In A Minute
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'set-volume', 34 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 49 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Nate Husser & LUCKI Lil Big' ]
+Lil Big (ft. LUCKI)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 59 ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'set-motion-record-dur', 0 ]
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 8126719 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'set-motion-record-dur', 0 ]
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'set-alarm', '0613CDC3-23CF-49BF-B1FF-8A66DF22540F', '1100AM' ]
+[SERVER_INFO]: Got a message with args [ 'set-alarm', 'EEDF1355-F0D0-42E4-9980-752B160804D3', '1200AM' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 67 ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'NAV & Metro Boomin A$AP Ferg (feat. Lil Uzi Vert)' ]
+A$AP Ferg (feat. Lil Uzi Vert)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-motion-record-dur', 0 ]
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: Got a message with args [ 'monitor-on' ]
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Lil Uzi Vert FOR FUN' ]
+FOR FUN Prod. By BEATSBYJEFF
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 76 ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 86 ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'set-motion-record-dur', 0 ]
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: Got a message with args [ 'monitor-on' ]
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'destroy-alarm', '0613CDC3-23CF-49BF-B1FF-8A66DF22540F' ]
+[SERVER_INFO]: Got a message with args [ 'destroy-alarm', 'EEDF1355-F0D0-42E4-9980-752B160804D3' ]
+[SERVER_INFO]: Got a message with args [ 'set-motion-record-dur', 0 ]
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 8126719 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 8126719 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 63 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 54 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Money Mu & Money Man Schizo' ]
+Schizo
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 65 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 56 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Lil Darius Small Town Hero' ]
+Small Town Hero
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 62 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 55 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Thouxanbanfauni Rrr (feat. UnoTheActivist)' ]
+RRR (feat. UnoTheActivist)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 62 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 75 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 61 ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Lil Baby Right On' ]
+Lil Baby - Right On
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 59 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 50 ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 8126719 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711839 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711839 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'req-live-stream' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711839 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'stop-live' ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-motion-record-dur', 0 ]
+[SERVER_INFO]: Got a message with args [ 'monitor-off' ]
+[SERVER_INFO]: Got a message with args [ 'monitor-on' ]
+[SERVER_INFO]: WebSocket connection establised
+/home/davidpi/mirror-electron/node_modules/electron/dist/electron exited with signal SIGSEGV
+
+> mirror-electron@1.0.0 start
+> electron .
+
+[SERVER_INFO]: WebSocket connection establised
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'A$AP Rocky A$AP Forever (feat. Moby)' ]
+A$AP Rocky feat. Moby - A$AP Forever
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'NAV & Metro Boomin A$AP Ferg (feat. Lil Uzi Vert)' ]
+A$AP Ferg (feat. Lil Uzi Vert)
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 57 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 69 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 83 ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711839 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711846 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711853 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 5832959 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16777215 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 65535 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 255 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16777215 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 65535 ]
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 91 ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 82 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 65535 ]
+[SERVER_INFO]: Got a message with args [ 'set-motion-record-dur', 0 ]
+[SERVER_INFO]: Got a message with args [
+  'gmail-auth-code',
+  '4/0AdQt8qhFbnmvTwSHjiEQdKX12iKPGsFGAFWMR9SyXUdR6nSgJLuhKjAvm1JFX-qVfsdmEg'
+]
+[SERVER_INFO]: Got a message with args [ 'set-emails-displayed', 4 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 13567 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 255 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711680 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 65280 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711680 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: WebSocket connection establised
+(node:1369) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 alarm-playing listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(Use `electron --trace-warnings ...` to show where the warning was created)
+(node:1369) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 send-live listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:1369) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 send-pic listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:1369) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 new-video listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:1369) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 music-file-ready listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:1369) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 cant-get-title listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:1369) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 sc-query-result listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(node:1369) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 2 gmail-ready listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'pause-music' ]
+[SERVER_INFO]: Got a message with args [ 'search-music', 'Thouxanbanfauni AMERICAN MUSCLE' ]
+American Muscle
+[SERVER_INFO]: Got a message with args [ 'play-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-volume', 90 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 0 ]
+[SERVER_INFO]: Got a message with args [ 'pause-song' ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711680 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 16711935 ]
+[SERVER_INFO]: Got a message with args [ 'set-lights', 255 ]

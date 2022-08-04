@@ -1,6 +1,6 @@
 const { INPUT, HIGH, OUTPUT, LOW } = require('rpio')
 const rpio = require('rpio')
-const { StillCamera, StreamCamera, Codec } = require('pi-camera-connect')
+const { StillCamera, StreamCamera, Codec, Flip } = require('pi-camera-connect')
 const fs = require('fs')
 const path = require('path')
 const mpg = require('node-mpg123')
@@ -35,41 +35,46 @@ var userLock = false;
 const LIT = 11
 rpio.open(LIT, OUTPUT, LOW)
 
-const sendNum2Pico = (number) => {
-    var binStr = number.toString(2)
-    const padding = 24 - binStr.length
+const writeLights = (number) => {
+    var bitStr = number.toString(2)
+    const padding = 24 - bitStr.length
     for (var i = 0; i < padding; i++) {
-        binStr = '0' + binStr
+        bitStr = '0' + bitStr
     }
-    rpio.write(LIT, 1)
+    rpio.write(11, 1)
+    rpio.msleep(5)
+    rpio.write(11, 0)
     rpio.msleep(2)
-    rpio.write(LIT, 0)
-    rpio.msleep(2)
-    for (const bit of binStr) {
-        if (bit == "1") {
-            rpio.write(LIT, 1)
+    for (const bit of bitStr) {
+        if (bit == '1') {
+            rpio.write(11, 1)
         } else {
-            rpio.write(LIT, 0)
+            rpio.write(11, 0)
         }
         rpio.msleep(10)
     }
+    rpio.write(11, 0)
 }
+
 
 const stillCamera = new StillCamera({
     width: 720,
     height: 1280,
+    flip: Flip.Vertical
 })
 const streamCamera = new StreamCamera({
     codec: Codec.MJPEG,
     fps: 40,
     width: 720,
-    height: 1280
+    height: 1280,
+    flip: Flip.Vertical
 })
 const survCam = new StreamCamera({
     codec: Codec.MJPEG,
     fps: 25,
     width: 1920,
-    height: 1080
+    height: 1080,
+    flip: Flip.Vertical
 })
 
 var numVideos = fs.readdirSync(path.join(__dirname, 'videos')).length
@@ -106,26 +111,40 @@ module.exports = (debug) => {
         },
 
         setColor: (number) => {
-            sendNum2Pico(number)
+            writeLights(number)
         },
     
         takePicture: async () => {
+            if (recording) {
+                await rpio.stopVideo()
+            }
+          
             if (debug) console.log('[RPIGPIO_INFO]: Image taken')
             let image = await stillCamera.takeImage()
-            return image.toString('base64')   
+            return image.toString('base64')  
+            
         },
     
         setAlarm: (alarmName, timeFromNow) => {
             if (debug) console.log('[RPIGPIO_INFO]: Alarm ' + alarmName + ' has been set to go off in ' + 
             Math.floor(timeFromNow / (60000 * 60)) + ' hours and ' + (timeFromNow % (60000 * 60)) / 60000 + ' minutes')
-            const timeoutId = setTimeout(() => {
-                curPlaying = alarmName
-                isPlaying = true
-                player.play()
-            }, timeFromNow)
+            const setTime = Date.now()
+            const alarmIntervalId = setInterval(() => {
+                if (Date.now() - setTime >= timeFromNow) {
+                    clearInterval(alarmIntervalId)
+                    curPlaying = alarmName
+                    isPlaying = true
+                    player.play()
+                }
+            }, 10000)
+            // const timeoutId = setTimeout(() => {
+            //     curPlaying = alarmName
+            //     isPlaying = true
+            //     player.play()
+            // }, timeFromNow)
             alarms.push({
                 alarmId: alarmName,
-                timeoutId: timeoutId
+                intervalId: alarmIntervalId
             })
         },
     
@@ -150,7 +169,7 @@ module.exports = (debug) => {
             const alarm = alarms.find((alarm) => alarm.alarmId == alarmName)
             if (alarm) {
                 if (debug) console.log('[RPIGPIO_INFO]: Alarm ' + alarm.alarmId + ' has been canceled')
-                clearTimeout(alarm.timeoutId)
+                clearInterval(alarm.intervalId)
             }
         },
     
@@ -159,7 +178,7 @@ module.exports = (debug) => {
                 fs.rmSync(fs.readdirSync(path.join(__dirname, 'videos'))[0])
                 numVideos--
             }
-            if (!recording) {
+            if (!recording && !streaming) {
                 if (debug) console.log('[RPIGPIO_INFO]: Recording started.')
                 recording = true
                 stream = survCam.createStream()
@@ -169,29 +188,34 @@ module.exports = (debug) => {
             } 
         },
     
-        stopVideo: () => {
+        stopVideo: async () => {
             if (recording) {
                 if (debug) console.log('[RPIGPIO_INFO]: Recording stopped.')
                 recording = false
                 kill(this.audProcess.pid)
                 
-                survCam.stopCapture()
+                await survCam.stopCapture()
                 stream.destroy()
                 
                 const date = new Date()
                 const fmt = date.toDateString() + '-' + date.getHours() + ':' + date.getMinutes() + ':' + date.getSeconds()
-                
-                exec('ffmpeg -y -i vid.mjpeg -i aud.mp3 -c copy \"/home/davidpi/mirror-electron/videos/' + fmt + '.mp4\"').on('exit', () => {
+                if (debug) console.log('[RPIGPIO_INFO]: Starting ffmpeg')
+                exec('ffmpeg -y -i vid.mjpeg -i aud.mp3 temp.mp4').on('exit', () => {
                     numVideos++
                     if (debug) console.log('[RPIGPIO_INFO]: Saved video: ' + fmt + '.mp4')
-                    fs.rmSync('aud.mp3')
-                    fs.rmSync('vid.mjpeg')
+                    try {
+                        fs.renameSync('temp.mp4', path.join(__dirname, 'videos', fmt + '.mp4'))
+                        fs.rmSync('aud.mp3')
+                        fs.rmSync('vid.mjpeg')
+                    } catch (e) {
+                        if (debug) console.log('[RPIGPIO_ERROR]: ', e)
+                    }
                 })
             }
         },
     
         startLivestream: async (intervalCallback) => {
-            if (!streaming) {
+            if (!streaming && !recording) {
                 if (debug) console.log('[RPIGPIO_INFO]: Livestreaming started')
                 streaming = true
                 if (!recording) {
@@ -200,7 +224,7 @@ module.exports = (debug) => {
                 intervalId = setInterval(async () => {
                     const image = await streamCamera.takeImage()
                     intervalCallback(image)
-                }, 100)
+                }, 200)
             } else {
                 if (debug) console.log('[RPIGPIO_ERROR]: Already streaming')
             }

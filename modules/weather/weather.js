@@ -26,6 +26,11 @@ module.exports = {
     interval: 1000,
 
     getDom: () => {
+	this.count++
+	if (this.count == 300) {
+	    getData()
+	    this.count = 0
+	}
         const wrap = document.createElement('div')
         wrap.id = 'weather'
         const todayWrap = document.createElement('div')
@@ -118,6 +123,7 @@ module.exports = {
 
     start: () => {
         getData()
+	this.count = 0
     }, 
 
     give: () => {

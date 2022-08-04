@@ -8,6 +8,7 @@ const path = require('path')
 var modules = []
 var styles = []
 var inFullscreen = false
+var gmailId
 
 const loadModules = () => {
     fs.readdirSync(__dirname).forEach((moduleDirName, index) => {
@@ -18,6 +19,18 @@ const loadModules = () => {
                 if (fileName.substring(fileName.lastIndexOf('.')) == '.js') {
                     const mod = require(path.join(__dirname, moduleDirName, fileName))
                     mod.id = fileName + '_' + index
+                    mod.updateDom = () => {
+                        updateModule(mod.id)
+                    }
+                    mod.hide = (duration) => {
+                        fadeOut(mod.id, duration)
+                    }
+                    mod.show = (duration) => {
+                        fadeIn(mod.id, duration)
+                    }
+                    if (fileName == 'gmail.js') {
+                        gmailId = mod.id
+                    }
                     modules.push(mod)
                 } else if (fileName.substring(fileName.lastIndexOf('.')) == '.css') {
                     styles.push(path.join(__dirname, moduleDirName, fileName))
@@ -69,7 +82,6 @@ const setIntervals = () => {
     modules.forEach((mod) => {
         if (mod.usesInterval) {
             const intervalId = setInterval(() => {
-                
                 if (!inFullscreen && !mod.hidden) updateModule(mod.id)
             }, mod.interval)
             intervalIds.push({
@@ -235,6 +247,14 @@ const setupIpcRoutes = () => {
         fadeIn(moduleId, duration)
     })
 
+    ipcRenderer.on('gmail-auth-json', (event, authJson) => {
+        giveData(gmailId, authJson)
+    })
+
+    ipcRenderer.on('set-emails-displayed', (event, data) => {
+        giveData(gmailId, data)
+    })
+
 }
 
 setupIpcRoutes()
@@ -246,5 +266,7 @@ module.exports = {
         positionModulesWrappers()
         appendStyles()
         appendModules()
-    }
+    },
+
+    updateModule: updateModule
 }

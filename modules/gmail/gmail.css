@@ -1,0 +1,59 @@
+#gmail {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-self: flex-end;
+    padding-left: 20%;
+    padding-right: 10% 
+}
+
+#gmail-header {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+    text-align: left;
+}
+
+#gmail-list {
+    display: flex;
+    flex-direction:  column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding-top: 5px;
+    row-gap: 5px;
+}
+
+.gmail-left-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.gmail-single-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.gmail-single-title {
+    color: white;
+    font-size: 20px;
+}
+
+.gmail-single-sender {
+    color: gray;
+    font-size: 15px;
+}
+
+.gmail-single-time {
+    text-align: right;
+    color: gray;
+    font-size: 10px;
+}

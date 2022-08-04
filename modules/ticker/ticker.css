@@ -1,0 +1,49 @@
+.ticker-single {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    min-width: 25%;
+    
+
+}
+
+#ticker {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    justify-content: flex-end;
+    animation: goRight 20s linear;
+    animation-iteration-count: infinite;
+    max-width: 95%;
+}
+
+.ticker-single-symbol {
+    color: white;
+    font-size: 30px;
+}
+
+.ticker-single-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ticker-single-price {
+    font-size: 20px;
+    color: lightgray;
+}
+
+.ticker-single-change {
+    font-size: 20px
+}
+
+@keyframes goRight {
+    0%, 10% {
+        transform: translateX(0%);
+    }
+    90%, 100% {
+        transform: translateX(355%);
+    }
+}
